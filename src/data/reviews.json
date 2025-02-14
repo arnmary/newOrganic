@@ -1,0 +1,25 @@
+{
+    "customers":[
+        {
+          "id":11,
+          "imgSrc":"/user1.jpg",
+          "altText":"User image",
+          "description":"Simply dummy text of the printing and typesetting industry.",
+          "rating":5,
+          "name":"Sara Taylor",
+          "category":"Consumer",
+          "link":"#" 
+        },
+        {
+            "id":12,
+            "imgSrc":"/user1.jpg",
+            "altText":"Another user image",
+            "description":"Simply dummy text of the printing and typesetting industry.",
+            "rating":4,
+            "name":"John Doe",
+            "category":"Consumer",
+            "link":"#"
+          }
+
+    ]
+}

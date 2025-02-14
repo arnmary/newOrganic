@@ -1,0 +1,24 @@
+{
+    "menuItems" :[
+     {
+         "name":"Home",
+         "to":"/home"
+     },
+     {
+         "name":"Licence",
+         "to":"/licence"
+     },
+     {
+         "name":"Service",
+         "to":"/service"
+     },
+     {
+         "name":"FAQ",
+         "to":"/faq"
+     },
+     {
+         "name":"About us",
+         "to":"/about"
+     }
+    ]
+ }

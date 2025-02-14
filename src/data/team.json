@@ -1,0 +1,63 @@
+{
+    "teamMembers":[
+        {
+            "image": "/image14.png",
+            "name": "Giovani Bacardo",
+            "role": "Farmer",
+            "socialLinks": [
+              { "icon": "faFacebook", "url":"https://facebook.com"},
+              { "icon": "faTwitter", "url": "https://twitter.com" }
+            ]
+        },
+        {
+            "image": "/image15.png",
+            "name": "Marianne Loreno",
+            "role": "Designer",
+            "socialLinks": [
+              { "icon": "faInstagram", "url": "https://instagram.com"},
+              { "icon": "faFacebook", "url":"https://facebook.com"},
+              { "icon": "faTwitter", "url": "https://twitter.com"}
+            
+            ]
+        },
+        {
+            "image": "/image16.png",
+            "name": "Riga Pelore",
+            "role": "Farmer",
+            "socialLinks": [
+              { "icon": "faInstagram", "url": "https://instagram.com"},
+              { "icon": "faFacebook", "url":"https://facebook.com"},
+              { "icon": "faTwitter", "url": "https://twitter.com"}
+            ]
+        },
+        {
+            "image": "/image32.png",
+            "name": "Keira Knightley",
+            "role": "Farmer",
+            "socialLinks": [
+              { "icon": "faFacebook", "url":"https://facebook.com"},
+              { "icon": "faTwitter", "url": "https://twitter.com"}
+            ]
+        },
+        {
+            "image": "/image33.png",
+            "name": "Scott Lawrence",
+            "role": "Designer",
+            "socialLinks": [
+              { "icon": "faInstagram", "url": "https://instagram.com"},
+              { "icon": "faFacebook", "url":"https://facebook.com"},
+              { "icon": "faTwitter", "url": "https://twitter.com"}
+            ]
+        },
+        {
+            "image": "/image34.png",
+            "name": "Karen Allen",
+            "role": "Farmer",
+            "socialLinks": [
+              { "icon": "faInstagram", "url": "https://instagram.com"},
+              { "icon": "faFacebook", "url":"https://facebook.com"},
+              { "icon": "faTwitter", "url": "https://twitter.com"}
+            ]
+        }
+    ]
+}

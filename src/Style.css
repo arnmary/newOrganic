@@ -1,0 +1,1491 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+ --mainTextColor:#274C5B;
+ --secondaryTextColor:#7EB693;
+ --lightText:#FFFFFF;
+ --simpleText:#525C60;
+ --blueBackground:#274C5B;
+ --yellowBackground:#EFD372;
+ --lightGreenBackground:#F1F8F4;
+ --whiteBackground:#FFFFFF;
+ --lightBackground:#F9F8F8;
+}
+body{
+    box-sizing: border-box;
+}
+.mainText, .mainTitle, .secondText, .cartTitle{
+    color: var(--mainTextColor);
+}
+.mainTitle{
+  font-size: 2.37rem;
+}
+.logoImg{
+    width: 2.31rem;
+    height: 3.56rem;
+}
+.searchBtn{
+  background-color: var(--secondaryTextColor);
+  margin-right: -0.5rem;
+}
+#basket{
+  padding: 0.55rem 1rem;
+  font-family: 1rem;
+}
+
+#basket, .iconWrap, .abovBtn, .cartBtnIcon, .checkBtn, .loadBtn{
+background-color: var(--blueBackground);
+}
+.cartBtn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+border: 0.1rem #e0e0e0 solid;
+}
+.descBlock{
+position: relative;
+overflow: hidden;
+}
+.descImage{
+max-width: 100%;
+max-height: 56rem;
+}
+.titleHeading{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 14rem;
+  top: 10rem;
+}
+
+.descSecondTitle{
+  color: var(--mainTextColor);
+  font-size: 4.3rem;
+  font-weight: 800;
+padding: 0.5rem 0 1.5rem;
+}
+.descBtn{
+  font-family: Roboto;
+  width: 36%;
+  padding: 1.75rem 2.43rem;
+  background-color:var(--yellowBackground);
+  color: var(--mainTextColor);
+  font-size:1.25rem;
+  font-weight: 700;
+  z-index: 1;
+}
+.descVector1{
+  max-width: 11rem;
+  max-height: 11rem;
+  position: absolute;
+  top: 0.5rem;
+}
+.descVector2{
+  max-width: 4.8rem;
+  max-height: 4.3rem;
+  position: absolute;
+  top: 9rem;
+  left: 9rem;
+}
+.descVector3{
+  max-width: 20.43rem;
+  max-height: 29rem;
+  position: absolute;
+  bottom: -10rem;
+  left: -8rem;
+}
+.descVector4{
+  max-width: 8rem;
+  max-height: 8.7rem;
+  position: absolute;
+  top: 3rem;
+  left: 41rem;
+}
+.descVector5{
+  max-width: 7.35rem;
+  max-height: 5.5rem;
+  position: absolute;
+  top: 2rem;
+  right: 8rem;
+}
+.descVector6{
+  max-width: 17.6rem;
+  max-height: 15.8rem;
+  position: absolute;
+  top: -3rem;
+  right: -6rem;
+} 
+.descVector7{
+  max-width: 13.3rem;
+  max-height: 9.5rem;
+  position: absolute;
+  bottom:0;
+  right: 0;
+}
+.descVector8{
+  max-width: 3rem;
+  max-height: 114rem;
+  position: absolute;
+  bottom: 0;
+  right: 4rem;
+}
+
+.imagesBlock{
+  width: 75%;
+margin: 9.6rem auto 11rem;
+}
+.leftPartImage, .rightPartImage{
+ max-width: 43rem;
+ position: relative;
+ max-height: 23rem;
+}
+
+ .leftPartText{
+  font-family: Yellowtail, cursive;
+  position: absolute;
+  top:5rem;
+  left: 8rem;
+  z-index: 3;
+ }
+ .imagesBlock p{
+   position: absolute;
+   top:7rem;
+   font-size: 2.5rem;
+   z-index: 4;
+ }
+ .leftPart p{
+  left: 5rem;
+ }
+ .rightPartText{
+  font-family: Yellowtail, cursive;
+  position: absolute;
+  color:var(--secondaryTextColor);
+  top:5rem;
+  left:47rem;
+  z-index: 4;
+ }
+ .rightPart p{
+  color: var(--mainTextColor);
+  left:44rem;
+ }
+ .aboutBlock{
+  width: 100%;
+  position: relative;
+
+ }
+ .aboutBackgr{
+  width: 100%;
+  margin-left: 0;
+  
+ }
+ .textBlock{
+  position: absolute;
+   top: 10rem;
+   right: 0;
+  
+ }
+ .textTop{
+  font-family: Yellowtail, cursive; 
+  color: var(--secondaryTextColor);
+  font-size: 2.25rem;
+  font-weight: 400;
+ }
+ .mainText, .mainLightText{
+  font-family: Roboto;
+  font-size: 2.5rem;
+  font-weight: 800;
+ }
+ .mainLightText{
+  color: var(--lightText);
+ }
+ .smallMainText{
+color: var(--blueBackground);
+font-size: 1.25rem;
+font-weight: 800;
+ }
+ .simpleText,.simpleSecondText{
+  font-family: Opensans;
+  color: var(--simpleText);
+  font-weight: 400;
+ }
+ .simpleText{
+   font-size: 1.125rem;
+ }
+
+ .simpleSecondText{
+font-size: 0.98rem;
+ }
+ .aboutBanner{
+  width: 100%;
+ }
+.abovBtn .icon{
+  background-color:#335B6B;
+ }
+ .abovBtn, .cartTitle{
+  font-family: Roboto;
+  padding: 1.75rem 2.43rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+ }
+ .disabledText{ 
+  text-decoration:line-through;
+ }
+ .prodBlock{
+ width: 100%;
+  margin-bottom: 10rem;
+ }
+ .productList{
+  margin: 0 auto;
+ }
+ .product{
+  width: 20rem;
+  min-height: 36rem;
+  box-shadow: 0 .25rem .37rem #0000001a;
+  transition: transform .2s, box-shadow .2s;
+ }
+.cardBot {
+padding-top: 2rem;
+  position: absolute;
+  bottom: -1rem;
+  left: 3rem;
+}
+.prodTag{
+  font-family: Opensans;
+  background-color: var(--blueBackground);
+  color: var(--lightText);
+  font-size: 0.93rem;
+  font-weight: 600;
+
+}
+.categBtn{
+padding-top: 2rem;
+position: absolute;
+left: 43rem;
+}
+.prodDeck{
+font-family: Roboto;
+position: absolute;
+bottom: 5rem;
+color: var(--mainTextColor);
+font-size: 1.25;
+font-weight: 600;
+}
+.product-price{
+  font-family: OpenSans;
+  color: var(--mainTextColor);
+  font-size: 1.56;
+  font-weight: 700;
+}
+.loadBtn{
+  padding: 1.75rem 3rem 1.75rem 2.87rem;
+  margin: 7.6rem auto 12.4rem;
+
+}
+.backShoppingBtn{
+display: inline-block;
+font-family: Roboto;
+padding: 0.75rem 1.56rem;
+font-size: 1.25rem;
+font-weight: 700;
+color: var(--lightText);
+background-color: var(--secondaryTextColor);
+}
+.revBack{
+margin: 12rem 0 0;
+}
+.textRev{
+  position: absolute;
+top: 8.25rem;
+left: 32rem;
+z-index: 5;
+}
+.reviewsSlide{
+  position:absolute;
+  top:16rem;
+  left:25rem;
+  margin-bottom: 6.3rem;
+
+}
+.mySwiper{
+ max-width: 48rem;
+position: absolute;
+top: 2rem;
+z-index: 10;
+}
+.customerImage{
+  max-width: 7.18rem;
+  max-height: 7.18rem;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.customerDescription, .customerCategory{
+  font-size: 1.12rem;
+  font-weight: 600;
+}
+.customerName{
+  font-size: 1.6rem;
+  color: var(--mainTextColor);
+  font-weight: 600;
+
+}
+.advantages{
+  max-width: 60%;
+  position: absolute;
+  bottom: -6rem;
+  left:20rem;
+  z-index: 12;
+  border-top:#E0E0E0 solid 0.1rem;
+  margin-bottom: 10rem;
+}
+.advantages p{
+  color: var(--mainTextColor);
+  font-size: 1.125rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.circle{
+ min-width: 13rem;
+ min-height: 13rem;
+  border: 0.3rem solid;
+  border-color: var(--secondaryTextColor);
+  border-radius: 50%;
+}
+.vegitables{
+min-width: 100%;
+background-color: var(--blueBackground);
+margin: 0;
+}
+.vegContent{
+margin: 0 auto;
+padding-top: 12rem;
+padding-bottom: 3rem;
+
+}
+.vegBtn{
+  font-family: Roboto;
+  background-color: var(--yellowBackground);
+  color: var(--mainTextColor);
+  padding: 1.75rem 2.43rem;
+  font-size: 1.25rem;
+  font-family: 700;
+  white-space: nowrap;
+
+}
+.faIconRight{
+  background-color: #335B6B;
+  padding: 0.4rem 0.5rem;
+}
+.cardBlock{
+margin: 0 auto;
+padding-top: 4rem;
+}
+.productVegan{
+width: 20rem;
+font-size: 1.25rem;
+}
+
+.vegBtnTag{
+font-family: OpenSans;
+font-weight: 600;
+background-color: var(--blueBackground);
+font-size: 0.93rem;
+width: 75%;
+}
+
+.vegCardDeck{
+position: absolute;
+bottom: 2.56rem;
+}
+.vegPrice{
+  color: var(--mainTextColor);
+  font-family: Opensans;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-right: 0.7rem;
+}
+.cardVegBot{
+position: absolute;
+bottom: 0;
+margin-left: 0.7rem;
+}
+.textSection{
+  position: absolute;
+  background-color:var(--whiteBackground);
+  top: 3.25rem;
+  right: 11rem;
+  padding: 2.8rem 3.6rem;
+  border-radius: 2rem;
+}
+
+.secondText{
+font-family: Roboto;
+font-size: 1.56rem;
+font-weight: 500;
+padding: 1.8rem 0 0.43rem ;
+}
+.galeryBlock{
+  background-color: var(--lightGreenBackground);
+  padding: 11.68rem 0;
+
+}
+.cardWrap{
+  position: relative;
+}
+.galleryImage{
+  max-width: 30rem;
+  max-height: 32rem;
+}
+.galleryBtn{
+  position:absolute;
+  left:9rem;
+  top:15.25rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--mainTextColor);
+}
+.blogBlock{
+margin: 1rem auto;
+}
+.cardBlogWrap{
+  margin: 11rem auto;
+}
+.blogContent{
+  max-width: 87rem;
+  margin: 11rem auto 3rem;
+  padding: 0 1rem;
+}
+.blogTitle{
+  font-weight: 800;
+font-size: 3.1rem;
+margin: 0;
+}
+.blogBtn{
+background-color: var(--whiteBackground);
+color:var(--mainTextColor);
+font-family: Roboto;
+font-size: 1.25rem;
+font-weight: 700;
+padding: 1.75rem 3rem 1.75rem 2.87rem;
+border:.1rem solid #335B6B;
+}
+.userIcon{
+color: var(--yellowBackground);
+}
+.userName{
+  color: var(--mainTextColor);
+font-family: Roboto;
+font-size: 1.125rem;
+font-weight: 400;
+}
+.blogSecondTitle, .blogPageTag{
+  color: var(--mainTextColor);
+  font-family: Roboto;
+  font-weight: 800;
+  font-size: 1.56rem;
+  white-space: nowrap;
+}
+.blogSectionBtn{
+  background-color: var(--yellowBackground);
+  color: var(--mainTextColor);
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 1.75rem 2.9rem;
+}
+.blogImage{
+width: 42rem;
+  height: 30rem;
+}
+.newsBlock{
+  position: relative;
+width: 75%; 
+padding: 1.5rem ;
+margin: 0 auto;
+}
+.newsLetterImage{
+  width: 100%;
+  margin:1.5rem auto 7.31rem ;
+}
+.newsletterHeading{
+  position: absolute;
+  top: 7rem;
+  left:4.43rem;
+  font-size: 3rem; 
+}
+.newsForm {
+  position: absolute;
+  top:9rem;
+  right: 4.43rem;
+
+}
+.emailInput{
+  padding: 1.50rem 10.85rem 1.93rem 1.43rem;
+  border-radius: 1rem;
+  color: var(--simpleText);
+  border: none;
+}
+.newsSubmit{
+padding: 1.50rem;
+border-radius: 1rem;
+background-color: var(--blueBackground);
+color: var(--lightText);
+border: none;
+}
+.footerTitle{
+  font-family: Roboto;
+font-size: 1.87rem;
+font-weight: 700;
+}
+.iconBack{
+  background-color: var(--lightGreenBackground);
+  border-radius: 50%;
+  padding:0.5rem 0.8rem;
+  margin: 0.5rem;
+}
+.socIcon{
+  color: var(--mainTextColor);
+}
+.footerBrend{
+width: 12rem;
+padding: 1rem;
+margin: 0 auto;
+}
+.contacts a,p,address, .footLink{
+  font-family: Open-sans bolt;
+  font-size: 1.12rem;
+text-decoration: none;
+color: var(--simpleText);
+}
+
+.footerText{
+  color: var(--simpleText);
+}
+.boltText,.contacts p{
+font-family: Open-sans bolt;
+font-weight: bold;
+font-size: 1.12rem;
+}
+#footer {
+left: 0;
+width: 100%;
+margin: 2rem 0 0 0;
+padding: 1.25rem 0 0.63rem ;
+}
+
+.secondBlock{
+  padding-top: 4.25rem;
+}
+.secondImage{
+  max-width: 100%;
+margin-left: 0;
+padding-top: 4.25rem;
+}
+
+.secondText{
+  margin-left: 2.5rem;
+}
+.thirdBlock{
+  background-color:var(--lightBackground);
+}
+.thirdContent{
+  padding: 11.8rem 14.25rem;
+}
+.thirdBtn {
+  background-color: #ECECEC;
+  padding: 1.8rem 5.68rem 1.8rem 1.68rem;
+  margin: 2.25rem 0 0.75rem;
+}
+.dotIcon{
+  color: var(--secondaryTextColor);
+  font-family: 1.56rem;
+}
+.specification{
+  width: 25%;
+}
+
+.thirdBottom{
+  margin: 5.68rem auto 7.81rem;
+  width: 85%;
+}
+.fourthContent{
+  max-width: 80rem;
+  padding: 9.3rem 0 2.6rem;
+  margin: 0 auto ;
+}
+.teamersCard{
+ width: 30rem;
+  background-color: var(--lightBackground);
+  box-shadow: 0 .25rem .37rem #0000001a;
+  transition: transform .2s, box-shadow .2s;
+  overflow: hidden;
+
+}
+.teamersCard h5{
+  font-size: 1.37rem;
+}
+.teamersCard :hover{
+  background-color: var(--whiteBackground);
+}
+.fifthBlock{
+  background-color: var(--blueBackground);
+}
+.fifthContent{
+padding: 11.75rem 0;
+}
+.cardWraper{
+  max-width: 87rem;
+  margin: 2rem auto;
+
+}
+.fifthImage{
+width: 16.7rem;
+height: 16rem;
+background-color:var(--whiteBackground);
+border-radius: 10%;
+}
+
+.detImage{
+  position: relative;
+  overflow: hidden;
+  width: 36.9rem;
+  height: auto;
+  padding: 1rem;
+  box-shadow: 0 .25rem .37rem #0000001a;
+  transition: transform .2s, box-shadow .2s;
+}
+.details h5{
+font-weight: 600;
+  }
+.detailsBtn{
+  font-family: OpenSans;
+  font-size:1.56rem;
+  font-weight: 700;
+  background-color: var(--lightGreenBackground);
+  color: var(--mainTextColor);
+}
+.relatedProduct h3:first-child, .servSecondHeading{
+  font-family: Roboto;
+  color: var(--mainTextColor);
+  font-weight: 800;
+  font-size: 3.11rem;
+  margin: 8.75rem auto 2.5rem;
+}
+.singleTagBtn{
+  background-color: var(--blueBackground);
+  color: var(--lightText);
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+.servHeadingTop{
+  margin-top: 12.6rem;
+}
+.servSecondHeading{
+margin: 0.37rem auto 0;
+}
+.servSecondBlock h4{
+padding: 0.31rem 0;
+margin: 0;
+}
+.leftServCard{
+margin-left: 17rem;
+}
+.rightServCard{
+margin-right: 17rem;
+}
+.servBtn{
+border: var(--mainTextColor) 0.1rem solid;
+}
+.thirdServBlock {
+    position: relative;
+}
+.thirdServBlock img{
+
+max-width: 94rem;
+margin: 0;
+}
+.servButomn{
+position:absolute;
+top:11rem;
+left:30rem;
+}
+.circlePlay{
+ margin-block-start: auto; 
+  font-size: 6rem;
+}
+.bannerTitle {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  font-size: 4.3rem;
+  font-weight: bold;
+  color: var(--mainTextColor);
+  text-align: center; 
+}
+
+.qualityFirstBlock{
+  margin: 5.25rem auto 8.18rem;
+
+}
+.qualityContent{
+  margin: 0 auto;
+}
+.qualityContent img{
+  max-width: 23.68rem;
+  max-height: 15.75rem;
+}
+.qualityContent h4{
+color: var(--mainTextColor);
+
+}
+.qualitySecondTitle{ 
+font-size: 2.18rem;
+}
+.quatitiBtn{
+  color: var(--mainTextColor);
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 1.56rem;
+}
+.portfolioImgBlock{
+  padding: 9.3rem 0 8.75rem;
+}
+.portfolioCard h2{
+margin-top: 1.3rem;
+}
+.portfolioCard img{
+max-width: 90%;
+/* height: 20rem; */
+  border-radius: 2rem;
+}
+.portfolioCard{
+  width: 25%;
+  margin-bottom: 2.68rem;
+}
+.portfolioCard h3{
+  font-size: 1.37rem;
+  font-weight: 400;
+}
+.portfolioCard:hover .hoverOverlay {
+  opacity: 1;
+}
+.hoverOverlay{
+  background-color: rgba(252, 252, 252, 0.7);
+  width: 93%;
+  height: 80%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.btn-transparent {
+  background: none;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlayContent {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+.cardDescription{
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 2rem;
+  top: -8rem;
+  z-index: 10;
+}
+.cardDescription :last-child{
+   background-color: var(--lightBackground);
+}
+.cardTitle{
+  font-size: 4.3rem;
+  font-weight: bold;
+  color: var(--mainTextColor); 
+}
+.textWrap{
+  padding: 2rem 3rem;
+  width: 60%;
+}
+.clientData{
+  width: 40%;
+  margin: auto auto;
+  padding: 2.6rem 2.9rem;
+ 
+}
+.clientData, strong{
+color: var(--mainTextColor);
+font-size: 1.5rem;
+margin-right: 1rem;
+ text-align: start;
+}
+.clientData, li{
+  color:var(--simpleText);
+}
+.secondCardBlock{
+  margin: 4.25rem auto;
+  width: 54%;
+}
+.secondCardBlock h3{
+font-size: 2.18rem;
+}
+.blogPageTag{
+  position:absolute;
+  top:1rem;
+  left:1rem;
+  padding:2rem 1rem;
+  border-radius: 50%;
+  white-space: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textBlogBlock{
+  background-color: var(--whiteBackground);
+  position:absolute;
+  width: 90%;
+  bottom: -1.9rem;
+  left: 2rem;
+  padding: 2.8rem 3.56rem;
+  box-shadow: 0 .25rem .37rem #0000001a;
+  transition: transform .2s, box-shadow .2s;
+}
+.textBlogBlock h4{
+  font-family: Roboto;
+  font-weight: 400;
+font-size: 1.125rem;
+color: var(--mainTextColor);
+margin: 0;
+}
+.imgFluid{
+  width:94rem;
+  height: 46rem;
+}
+.blogPageUserIcon{
+font-size: 1.125rem;
+color: var(--secondaryTextColor);
+}
+.blogDetails{
+padding: 4.7rem 5.1rem;
+top: -11rem;
+box-shadow: 0 .25rem .37rem #0000001a;
+transition: transform .2s, box-shadow .2s;
+
+}
+.blogTitle{
+  font-size: 3.3rem;
+}
+.blogList li{
+  list-style: disc;
+  padding: 1rem ;
+}
+.secondBlogList li{
+list-style-type: decimal;
+padding: 1rem 0;
+}
+.blogTextCard{
+  background-color:#F1EDEA ;
+}
+.contactSecondBlock{
+  width: 80%;
+  margin: 13rem auto  7.5rem;
+}
+.firstSectionContact img{
+max-width: 30rem;
+}
+
+.firstRightPart{
+  max-width: 70%;
+  padding: 1rem 0 1rem ;
+  
+}
+.contactIcon{
+font-size: 2rem;
+border-radius: 1rem;
+background-color: #F4F4F4;
+margin-right: 1.18rem;
+}
+.contactCard{
+  width: 100%;
+  padding: 1rem 2.8rem 1rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 .25rem .37rem #0000001a;
+  transition: transform .2s, box-shadow .2s;
+  margin-bottom: 1.5rem; 
+}
+.secondSectionContact{
+margin: 6.1rem  auto 5rem auto;
+position: relative;
+}
+.secondSectionContact img{
+  max-width: 100%;
+  border-radius: 1rem;
+}
+.location{
+  position: absolute;
+  top: 5rem;
+  right: 6rem;
+  max-width: 45%;
+padding: 2.3rem 3.3rem;
+background-color: var(--lightBackground);
+border-radius: 1rem;
+
+}
+.location span,h3{
+  font-weight: bold;
+}
+.location h3{
+  font-size: 3rem;
+}
+.thirdSectionContact{
+margin: 0 6.75rem;
+}
+.inputWrap{
+  width: 48%;
+}
+.form-control{
+  padding: 1.3rem 1rem;
+}
+#message{
+padding-bottom: 10rem;
+  
+}
+
+.thirdSectionContact button{
+width: 13rem;
+}
+.form-label{
+  color: var(--mainTextColor);
+  font-weight: bolt;
+}
+
+.notFoundFirstImg{
+position: relative;
+max-width: 100%;
+padding-bottom: 7.25rem;
+}
+.notFoundText{
+position: absolute;
+top: 15rem;
+right: 8rem;
+
+}
+.notFoundText h4{
+  color: var(--mainTextColor);
+  font-weight: bolt;
+  font-size: 4.3rem;
+}
+.notfoundBtn{
+position: absolute;
+bottom: -5rem;
+left:0;
+background-color: var(--blueBackground);
+color: var(--lightText);
+text-decoration: none;
+padding: 1.75rem 2.8rem;
+}
+.garlicVector, .leavesVector, .forthVector, .thirdVector{
+max-width: 5rem;
+position:absolute;
+z-index: 100;
+}
+.garlicVector{
+  bottom: -5rem;
+  left: -39rem;
+  transform: rotate(72deg);
+}
+.leavesVector{
+  top: -3rem;
+  left: -28rem;
+  transform: rotate(45deg);
+}
+.thirdVector{
+  bottom: 11rem;
+  left: -14rem;
+  transform: rotate(72deg);
+}
+.forthVector{
+  bottom: 11rem;
+  left: -48rem;
+  transform: rotate(-62deg); 
+}
+/* 1536px */
+@media screen and (min-width: 96rem)  {
+  .textSection{
+    top: 6.25rem;
+    right: 22rem;
+    padding: 4.8rem 5.6rem;
+  }
+  .aboutBanner{
+    width: 120rem
+  }
+  .secondText{
+    font-family: Roboto;
+    font-size: 1.26rem;
+    font-weight: 500;
+    padding: 2.8rem 0 0.43rem ;
+    }
+    .mainText{
+      font-size: 3.1rem;
+    }
+    .textRev{
+      left: 41rem;
+    }
+    .reviewsSlide{
+      left: 37rem;
+    }
+    .advantages{
+      bottom: -1rem;
+      left: 31rem;
+    }
+  
+    .aboutBanner{
+      height: 25rem;
+    }
+  
+    .blogSecondTitle{
+      font-size: 2,18rem;
+      
+    }
+    .imgFluid{
+      width: 120rem;
+      height: 56rem;
+    }
+}
+
+/* 1200px */
+@media screen and (max-width: 75rem) {
+  .descSecondTitle {
+    font-size: 3rem;
+  }
+  .cartBtn{
+    flex-direction: row;
+    width: 16%;
+    font-weight: smal;
+  }
+  .imagesBlock p,h3{
+font-size: 2rem;
+  }
+  .leftPartText{
+    left:-2rem;
+  }
+  .leftPart p{
+    left: -5rem;
+    top: 9rem
+   }
+   .rightPartText{
+    left: 37rem;
+   }
+   .rightPart p{
+    left: 35rem;
+    top: 9rem;
+   }
+   #footer{
+    width: 100%;
+    margin: 1.5rem 0 0 0;
+   }
+   .newsLetterHeading{
+    font-size: 2.5rem;
+    top: 6rem;
+   }
+   .newsForm{
+    top: 7rem;
+   }
+   .emailInput{
+    padding: 1.30rem 8.85rem 1.3rem 1.1rem;
+  }
+  .newsSubmit{
+    padding: 1.3rem;
+  }
+  .aboutBanner{
+    height: 17rem;
+  }
+  .contactCard{
+    width: 100%;
+  }
+  .contactTitle{
+font-size: 1.56rem;
+  }
+  .contactCard{
+font-size: small; 
+ margin-bottom: 0.5rem;
+  }
+  .location{
+    padding: 1rem;
+    top: 1rem;
+    right: 1rem;
+  }
+  .textTop{
+   font-size: 1.5rem;
+  }
+  .notFoundImg{
+    width: 70%;
+  }
+  .notFoundText{
+    top: 12rem;
+    right: 2rem;
+  }
+  .notFoundText h4 {
+    font-size: 3.1rem;
+  }
+  .notfoundBtn{
+  bottom: -6;
+    padding: 1.5rem 2.5rem;
+  }
+}
+/* 992px */
+@media screen and (max-width: 62rem) {
+
+  .descTitle {
+    font-size: 2rem;
+    left: 14rem;
+  }
+  .descSecondTitle {
+    font-size: 2.5rem;
+    top: 15rem;
+   left: 14rem;
+  }
+  .cartTitle, .cartBtn{
+ flex-direction: row;
+  }
+
+  .descBtn {
+    width: 30%;
+    left: 14rem;
+    font-size: small;
+  }
+  .descVector4 {
+    left: 30rem;
+  }
+  .imagesBlock p h3{
+    font-size: 1.8rem;
+      }
+      .leftPartText{
+        left:-10rem;
+    
+      }
+      .leftPart p{
+        left: -12rem;
+        top: 9rem
+       }
+       .rightPartText{
+        left: 31rem;
+       }
+       .rightPart p{
+        left: 28rem;
+        top: 9rem;
+       }
+  .imagesBlock{
+    width: 75%;
+  }
+  .newsLetterHeading{
+    font-size: 1.125rem;
+    top: 6rem;
+   }
+  .newsForm{
+    width: 71%;
+    top:5rem;
+    right: 0;
+    
+  } 
+  .emailInput{
+    padding: 1rem 3.85rem 1rem 0.50rem;
+  font-size: 1.125rem;
+  }
+  .newsSubmit{
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+  .location h3{
+font-size: 1.125rem;
+  }
+  .contactTitle{
+    font-size: 1.125rem;
+      }
+      .firstSectionContact img{
+max-width: 23rem;
+      }
+      .contactCard{
+    font-size: small; 
+    padding: 0 0.8rem 0 0;
+     margin-bottom: 1.1rem;
+      }
+      .location{
+        padding: 1rem;
+        top: 1rem;
+        right: 1rem;
+      }
+      .textTop{
+       font-size: 1.125rem;
+      }
+      .simpleText, .contacts a, p, address, .footLink{
+        font-size: 0.95rem;
+        margin-bottom: 0;
+      }
+      .portfolioImgBlock{
+        padding: 6.3rem 0 5.8rem;
+      }
+      .blogSecondTitle{
+        font-size: small;
+      }
+      .notFoundImg{
+        width: 50%;
+      }
+      .notFoundText{
+        top: 10rem;
+        right: -2rem;
+      }
+      .notFoundText h4 {
+        font-size: 2.18rem;
+      }
+      .notfoundBtn{
+      bottom: -6;
+        padding: 1.3rem 2rem;
+      }
+}
+/* 768px */
+@media screen and (max-width: 48rem ) {
+  .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cartBtn{
+    flex-direction: row;
+    width: 26%;
+  }
+
+  #basket {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .descBtn{
+    width: 90%;
+    margin-right: 0;
+  }
+  .descBtn, .abovBtn, .blogBtn, .loadBtn, .vegBtn, .blogSectionBtn{
+    font-size: 0.75rem;
+    padding: 0.75rem 1.43rem;
+    white-space: nowrap;
+    flex-direction: row;
+  }
+  .titleHeading{
+    left: 0;
+    }
+  .descTitle {
+    font-size: 1.8rem;
+  }
+  .descSecondTitle {
+    font-size: 2rem;
+  }
+  .descVector4 {
+    left: 20rem;
+  }
+  .imagesBlock p h3{
+    font-size: 1.5rem;
+      }
+      .leftPartText{
+        left:-16rem;
+    
+      }
+      .leftPart p{
+        left: -18rem;
+        top: 9rem
+       }
+       .rightPartText{
+        left: 26rem;
+       }
+       .rightPart p{
+        left: 21rem;
+        top: 9rem;
+       }
+  .imagesBlock{
+    width: 75%;
+  }
+  .newsLetterHeading{
+    font-size: 1.125rem;
+    top: 6rem;
+   }
+  .newsForm{
+    width: 55%;
+    top:6rem;
+    right: 0;
+    
+  } 
+  .emailInput{
+    padding: 0.75rem 1.85rem 0.75rem 0.50rem;
+  font-size: 0.75rem;
+  }
+  .newsSubmit{
+    padding: 0.75rem;
+    font-size: 0.75rem;
+  }
+  .location h3{
+    font-size: 1rem;
+      }
+      .contactTitle{
+        font-size: 1rem;
+          }
+          .contactCard{
+        font-size: small; 
+         margin-bottom: 1.1rem;
+         padding: 0 1.5rem 0 0;
+          }
+          .location{
+            padding: 0.5rem;
+            top: 1rem;
+            right: 1rem;
+          }
+          .textTop{
+           font-size: 1.rem;
+          }
+          .simpleText, .contacts a, p, address, .footLink{
+            font-size: smal;
+          }
+          .list-unstyled{
+            flex-direction: row;
+          }
+          .notFoundImg{
+            width: 50%;
+          }
+          .notFoundText{
+            width: 50;
+            top: 10rem;
+            /* right: -2rem; */
+            left: 25rem;
+          }
+          .notFoundText h4 {
+            font-size: 1.56rem;
+          }
+          .notFoundText p{
+            font-size: smmal;
+          
+          }
+
+          .notfoundBtn{
+            flex-direction: row;
+          bottom: -6;
+            padding: 1rem 1.7rem;
+            font-size: smal;
+          }
+    
+}
+/* 576px */
+@media screen and (max-width: 36rem) {
+  .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  button{
+    font-size: 0.75rem;
+    padding: 0.75rem 1.43rem;
+    white-space: nowrap;
+
+  align-items: center;
+  }
+  .cartBtn, .nav-link{
+    font-size: 0.75rem;
+  }
+  .cartBtn{
+    flex-direction: row;
+    width: 26%;
+  }
+  .form-control {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+  }
+  .searchBtn{
+    position: absolute;
+  padding: 0.75rem;
+   top: -0.75rem;
+   right: 1.55rem;
+  }
+  .titleHeading{
+  left: 0;
+  }
+  .descBtn, .abovBtn, .blogBtn, .loadBtn, .vegBtn, .blogSectionBtn{
+    font-size: 0.75rem;
+    padding: 0.75rem 1.43rem;
+    white-space: nowrap;
+    flex-direction: row;
+  }
+ 
+  .descTitle {
+    font-size: 1.5rem;
+  }
+  .descSecondTitle {
+    font-size: 1.8rem;
+  }
+
+  .descVector4, .descVector5, .descVector6, .descVector7, .descVector8 {
+    display: none;
+  }
+  .leftPart, .rightPart {
+    width: 100%;
+    text-align: center;
+  }
+  .imagesBlock p h3{
+    font-size: 1.5rem;
+      }
+      .leftPartText{
+        left: 11rem;
+    
+      }
+      .leftPart p{
+        left: 9rem;
+        top: 9rem
+       }
+       .rightPartText{
+        right: 7rem;
+       }
+       .rightPart p{
+        right: 0;
+        top: 9rem;
+       }
+       .productList{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+       .product{
+        width: 50%;
+       }
+
+       #footer{
+        width: 100%;
+       }
+       .list-unstyled{
+        flex-direction: row;
+      }
+      .notFoundImg{
+        width: 100%;
+      }
+      .notFoundText{
+        width: 50;
+        top: 10rem;
+        left: 25rem;
+      }
+      .notFoundText h4 {
+        font-size: 1.56rem;
+      }
+      .notFoundText p{
+        font-size: smmal;
+      }
+      .notfoundBtn{
+        flex-direction: row;
+      bottom: -6;
+        padding: 1rem 1.7rem;
+        font-size: smal;
+      }
+      .notFoundFirstImg {
+        padding-bottom: 1.25rem;
+      }
+}
