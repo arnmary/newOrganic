@@ -54,7 +54,7 @@ export default function CartPage() {
         )}
         <div className="mt-3">
           <Link to="/shop" className="backShoppingBtn rounded-2  text-decoration-none">
-            Back to Shopping
+             Back to Shopping
                 <span className=" mx-3 ">      
                     <FontAwesomeIcon icon={faArrowRight} 
                    className="text-light rounded abovBtn icon 

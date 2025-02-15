@@ -36,7 +36,7 @@ export default function Categories() {
       <Header onSearch={handleSearch} />
       <div className="container my-5 prodBlock">
         <div className="text">
-          <h3 className="textTop text text-center">Categories</h3>
+          <h3 className="textTop text-center">Categories</h3>
           <h4 className="roboto-800 mainText text-center mx-2">Our Products</h4>
         </div>
         <div className="productList d-flex flex-row flex-wrap justify-content-center gap-1 mb-5" id="prodList">

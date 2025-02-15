@@ -6,7 +6,7 @@ export default function ShopPage() {
   return (
     <>
     <div className='container-fluid'>
-        <img src="/banner2.png" alt="banner organic shop" className='aboutBanner '/>
+        <img src="/banner2.png" alt="banner organic shop" className='aboutBanner'/>
         <h2 className='bannerTitle'>Shop</h2>
     </div>
     <Categories/>

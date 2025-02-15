@@ -16,19 +16,25 @@ export default function Reviews() {
       <img src="/background3.png" alt="Background organic image" className="w-100" />
       <div className="textRev">
         <h3 className="textTop text-center">Testimonial</h3>
-        <h4 className="roboto-800 mainText text-center">What Our Customer Saying?</h4>
+        <h4 className="mainText text-center">What Our Customer Saying?</h4>
       </div>
       <div className="reviewsSlide">
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           {customers.map((customer) => (
             <SwiperSlide key={customer.id}>
               <div className="customerSlide">
-                <img src={customer.imgSrc} alt={customer.altText} className="customerImage my-5 py-1" />
-                {Array.from({ length: Number(customer.rating) || 0 }).map((_, index) => (
-                <FontAwesomeIcon key={index} icon={faStar} className="text-warning py-2" />
+                <div className='sliderTop d-flex flex-column'>
+                    <img src={customer.imgSrc} alt={customer.altText} className="customerImage py-1" />
+                    <div className='revRating text-center'>
+                           {Array.from({ length: Number(customer.rating) || 0 }).map((_, index) => (
+                <FontAwesomeIcon key={index} icon={faStar} className="text-warning  py-1" />
               ))}
+                    </div>
+           
+                </div>
+              
     
-                <p className="customerDescription  simpleText ">{customer.description}</p>
+                <p className="customerDescription  simpleText">{customer.description}</p>
                 <p className="customerName  py-2">{customer.name}</p>
                 <p className="customerCategory simpleSecondText">{customer.category}</p>
               </div>

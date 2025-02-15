@@ -14,6 +14,7 @@
 }
 body{
     box-sizing: border-box;
+    background-color: var(--whiteBackground);
 }
 .mainText, .mainTitle, .secondText, .cartTitle{
     color: var(--mainTextColor);
@@ -285,7 +286,7 @@ font-weight: 600;
 .backShoppingBtn{
 display: inline-block;
 font-family: Roboto;
-padding: 0.75rem 1.56rem;
+padding: 1rem 1.56rem;
 font-size: 1.25rem;
 font-weight: 700;
 color: var(--lightText);
@@ -295,9 +296,9 @@ background-color: var(--secondaryTextColor);
 margin: 12rem 0 0;
 }
 .textRev{
-  position: absolute;
+position: absolute;
 top: 8.25rem;
-left: 32rem;
+left: 33rem;
 z-index: 5;
 }
 .reviewsSlide{
@@ -314,20 +315,29 @@ top: 2rem;
 z-index: 10;
 }
 .customerImage{
+
   max-width: 7.18rem;
   max-height: 7.18rem;
   border-radius: 50%;
   text-align: center;
   margin: 0 auto;
 }
+.revRating{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+}
 .customerDescription, .customerCategory{
   font-size: 1.12rem;
   font-weight: 600;
+  text-align: center;
+  padding-top: 1rem;
 }
 .customerName{
   font-size: 1.6rem;
   color: var(--mainTextColor);
   font-weight: 600;
+  text-align: center;
 
 }
 .advantages{
@@ -615,7 +625,7 @@ padding-top: 4.25rem;
   margin: 0 auto ;
 }
 .teamersCard{
- width: 30rem;
+ width: 28rem;
   background-color: var(--lightBackground);
   box-shadow: 0 .25rem .37rem #0000001a;
   transition: transform .2s, box-shadow .2s;
@@ -905,7 +915,7 @@ max-width: 30rem;
 
 .firstRightPart{
   max-width: 70%;
-  padding: 1rem 0 1rem ;
+  padding: 0 0 1rem ;
   
 }
 .contactIcon{
@@ -920,7 +930,7 @@ margin-right: 1.18rem;
   border-radius: 1rem;
   box-shadow: 0 .25rem .37rem #0000001a;
   transition: transform .2s, box-shadow .2s;
-  margin-bottom: 1.5rem; 
+  margin-bottom: 1.05rem; 
 }
 .secondSectionContact{
 margin: 6.1rem  auto 5rem auto;
@@ -1069,9 +1079,10 @@ z-index: 100;
   }
   .cartBtn{
     flex-direction: row;
-    width: 16%;
+    font-size: 1rem;
     font-weight: smal;
   }
+
   .imagesBlock p,h3{
 font-size: 2rem;
   }
@@ -1394,6 +1405,7 @@ max-width: 23rem;
   .cartBtn, .nav-link{
     font-size: 0.75rem;
   }
+
   .cartBtn{
     flex-direction: row;
     width: 26%;
