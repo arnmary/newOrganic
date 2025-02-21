@@ -6,11 +6,17 @@ export default function CheckoutPage() {
     address: '',
     phone: ''
   });
+  const [totalPrice, setTotalPrice] = useState(0);
 
   useEffect(() => {
     const savedData = sessionStorage.getItem('checkoutData');
     if (savedData) {
       setFormData(JSON.parse(savedData));
+    }
+    
+    const storedTotalPrice = sessionStorage.getItem('totalPrice');
+    if (storedTotalPrice) {
+      setTotalPrice(parseFloat(storedTotalPrice));
     }
   }, []);
 
@@ -25,7 +31,10 @@ export default function CheckoutPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Order submitted successfully!');
+    sessionStorage.setItem('totalPrice', totalPrice.toFixed(2));
+    alert(`Order submitted successfully! Total Price: $${totalPrice.toFixed(2)}`);
+    sessionStorage.removeItem('checkoutData');
+    setFormData({ name: '', address: '', phone: '' });
   };
 
   return (
@@ -69,9 +78,20 @@ export default function CheckoutPage() {
               required
             />
           </div>
+          <div className="mb-3">
+            <label className="form-label">Total Price</label>
+            <input
+              type="number"
+              className="form-control"
+              value={totalPrice}
+              onChange={(e) => setTotalPrice(parseFloat(e.target.value) || 0)}
+              required
+            />
+          </div>
           <button type="submit" className="detailsBtn">Submit Order</button>
         </form>
       </div>
     </>
   );
 }
+

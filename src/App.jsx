@@ -1,5 +1,4 @@
 import './reset.css';
-// import { useState } from 'react';
 import './Style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -22,31 +21,35 @@ import BlogDetails from './pages/BlogDetails';
 import ContactPage from './pages/ContactPage';
 import NotFoundPage from './pages/NotFoundPage';
 import CheckoutPage from './pages/CheckoutPage';
-
+import { SearchProvider } from './context/SearchContext';
 function App() {
+
   return (
     <CartProvider>
       <BrowserRouter>
-        <Header />
-        <Routes>
+         <SearchProvider>
+      <Header onSearch={(query) => console.log("Шукаємо:", query)} />
+           <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/home" element={<Homepage />} />
           <Route path="/about" element={<Aboutpage />} />
           <Route path="/shop" element={<ShopPage />} />
           <Route path="/service" element={<ServicesPage />} />
-          <Route path="/product/:productId" element={<ProductDetails key={window.location.pathname} />} />
+          <Route path="/product/:productId" element={<ProductDetails />} />
           <Route path="/cart" element={<CartPage />} />
           <Route path="/quality" element={<QualityPage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
-          <Route path="/cards/:title" element={<CardDetails key={window.location.pathname} />} />
+          <Route path="/cards/:title" element={<CardDetails />} />
           <Route path="/team" element={<TeamPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blogDetails" element={<BlogDetails />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/checkout" element={<CheckoutPage />} />
-          <Route path="/*" element={<NotFoundPage />} />
-        </Routes>
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes> 
         <Footer />
+        </SearchProvider>
+
       </BrowserRouter>
     </CartProvider>
   );

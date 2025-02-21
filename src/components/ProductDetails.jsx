@@ -40,7 +40,7 @@ export default function ProductDetails() {
   return (
     <>
        <div className="container-fluid">
-        <img src="/banner3.png" alt="banner organic shop" className="aboutBanner w-100" />
+        <img src="/banner3.png" alt="banner organic shop" className="pageBanner" />
         <h2 className='bannerTitle'>Product Details</h2>
       </div>
       <div className="container text-center w-100 d-flex flex-row my-5">

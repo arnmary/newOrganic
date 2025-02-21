@@ -6,7 +6,7 @@ export default function Aboutpage() {
   return (
     <>
       <div className='container-fluid'>
-        <img src="/banner1.png" alt="banner organic shop" className='aboutBanner'/>
+        <img src="/banner1.png" alt="banner organic shop" className='pageBanner'/>
         <h2 className='bannerTitle'>About Us</h2>
       </div>
       <AboutContent/>

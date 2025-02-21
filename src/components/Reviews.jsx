@@ -35,7 +35,7 @@ export default function Reviews() {
               
     
                 <p className="customerDescription  simpleText">{customer.description}</p>
-                <p className="customerName  py-2">{customer.name}</p>
+                <p className="customerName">{customer.name}</p>
                 <p className="customerCategory simpleSecondText">{customer.category}</p>
               </div>
             </SwiperSlide>

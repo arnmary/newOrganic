@@ -27,23 +27,28 @@ export default function NewsletterBlock() {
 
   return (
     <div className='newsBlock '>
-      <div className='contentNews'>
+      <div className='contentNews position-relative'>
         <img src='/image11.png' alt='Fruits background' className='newsletterImage w-100' />
-        <div>
-          <h3 className='newsletterHeading mainLightText m-0'>
+        <div className=' d-flex flex-row align-items-center newsLetterContent'>
+          <div>
+               <h3 className='newsletterHeading mainLightText m-0'>
             Subscribe to <br /> our Newsletter
           </h3>
+          </div>
+       <div>
           <form onSubmit={handleSubmit} className='newsForm'>
             <input
               type='email'
               id='email'
               placeholder='Your Email Address'
-              className='emailInput mx-3'
+              className='emailInput'
               value={email}
               onChange={handleChange}
             />
             <input type='submit' value='Subscribe!' className='newsSubmit' />
           </form>
+       </div>
+        
         </div>
       </div>
     </div>

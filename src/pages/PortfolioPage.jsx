@@ -22,7 +22,7 @@ export default function PortfolioPage() {
           <img src="/banner6.png" alt="banner organic shop" className='w-100' />
           <h2 className='bannerTitle'>Portfolio Standard</h2>
   </div>
-    <div className="portfolioImgBlock w-100 mx-auto d-flex flex-row justify-content-center flex-wrap gap-1">
+    <div className="portfolioImgBlock">
             {cards.map((card, index) => (
           <div
                key={index}

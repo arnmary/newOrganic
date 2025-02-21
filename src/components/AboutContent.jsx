@@ -17,7 +17,7 @@ export default function AboutContent() {
       </div>
       <div className="secondText text-start conteiner w-50  ms-5">
       <h3 className="textTop">About Us</h3>
-      <h4 className='mainText roboto-800  mb-3'>
+      <h4 className='mainText mb-3'>
       We do Creative <br />
       Things for Success</h4>
       <p className="simpleText text-start mb-4"
@@ -33,14 +33,14 @@ export default function AboutContent() {
       <div className='d-flex flex-row justify-content-start mt-5 me-5'>
       <div className='d-flex flex-row me-3'>
           <img src="/icon3.png" alt="Tractor icon" />
-          <h4 className='Roboto-500  secondText text-start ms-3'>
+          <h4 className='secondText text-start ms-3'>
               Modern Agriculture <br />
               Equipment
       </h4>
       </div>
       <div className='d-flex flex-row '>
           <img src="/icon4.png" alt="Fabric icon" />
-          <h4 className='Roboto-500 secondText text-start ms-3 '>
+          <h4 className='secondText text-start ms-3 '>
           No growth <br />
           hormones are used    
       </h4>
@@ -73,7 +73,7 @@ export default function AboutContent() {
                     <p className="simpleText">
                     Simply dummy text of the printing and typesetting industry. Lorem had ceased <br />to been the industry's standard  the 1500s, when an unknown
                     </p>
-                    <div className='d-flex flex-row align-items-center thirdBtn w-75 rounded rounded-5 '>
+                    <div className='d-flex flex-row align-items-center thirdBtn  rounded rounded-5 '>
                     <FontAwesomeIcon icon={faCircleDot} className=' ms-4 dotIcon'  />
                     <p className='roboto-500 secondText pt-2 ms-2 my-0 text-nowrap'>100% Natural Product</p>
                     </div>
@@ -81,7 +81,7 @@ export default function AboutContent() {
                     Simply dummy text of the printing and typesetting <br />
                     industry Lorem Ipsum
                     </p>
-                    <div className='d-flex flex-row align-items-center thirdBtn w-75 rounded rounded-5 '>
+                    <div className='d-flex flex-row align-items-center thirdBtn rounded rounded-5 '>
                     <FontAwesomeIcon icon={faCircleDot} className=' ms-3 dotIcon'  />
                     <p className='roboto-500 secondText p-0 ms-2 my-0'> Increases resistance</p>
                     </div>
@@ -134,13 +134,13 @@ export default function AboutContent() {
     </div>
 </div>
           </div>
-          <div className="fouthBlock  bg-white container-fluid W-100">
+          <div className="fouthBlock  bg-white container-fluid">
 <div className="fourthContent">
     <h5 className="textTop text-center">Team</h5>
     <h4 className='mainText roboto-800  text-center mb-3'>Our Organic Experts</h4>
     <p className='simpleText text-center'>Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's <br />
      standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-     <div className="fourthBottom d-flex flex-row gap-2 justify-content-center w-100">
+     <div className="fourthBottom">
     {teamMembers.slice(0, 3).map((member, index) => (
         <TeamerCard key={index} {...member} />
     ))}
@@ -150,8 +150,8 @@ export default function AboutContent() {
     <div className="fifthBlock conteiner-fluid w-100">
         <div className="fifthContent ">
         <h5 className="textTop text-center">About Us</h5>
-        <h4 className='mainText roboto-800 text-light text-center mb-5'>What We Offer for You</h4>
-            <div className="cardWraper d-flex flex-row justify-content-center d-sm-row gap-2 w-75 mt-2">
+        <h4 className='mainTexttext-light text-center mb-5'>What We Offer for You</h4>
+            <div className="cardWraper mt-2">
 <div className="fifthCard rounded-5 ">
 <img src="/image17.png" alt="Spasy image" className='fifthImage'/>
 <p className='text-light roboto-500 text-center pt-3' >

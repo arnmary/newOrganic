@@ -3,7 +3,7 @@ import React from 'react';
 export default function Gallery() {
   return (
     <>
-      <div className='galeryBlock  d-flex flex-row justify-content-between w-100'>
+      <div className='galeryBlock'>
         <div className='cardWrap'>
             <img src="/image6.png" alt="Juice image" className='galleryImage'/>
             <button className='galleryBtn rounded rounded-4 bg-light py-3 px-5 '>Organic Juice</button>

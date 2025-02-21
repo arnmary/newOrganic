@@ -12,7 +12,7 @@ export default function VegitableSection() {
     <>
   <div className="vegitables container  position-relative py-5">
         <div>
-          <div className="vegContent w-75 d-flex justify-content-between">
+          <div className="vegContent  d-flex justify-content-between">
             <div>
               <h3 className='textTop'>Offer</h3>
               <h3 className='vegHeading  mainLightText '>We Offer Organic For You</h3>
@@ -31,7 +31,7 @@ export default function VegitableSection() {
             </div>
           </div>
 
-          <div className="cardBlock product-list w-75 d-flex flex-row justify-content-between py-5">
+          <div className="cardBlock product-list d-flex flex-row justify-content-between py-5">
             {vegetableProducts.map(product => (
               <div key={product.id} className="productVegan card rounded rounded-2 p-2 m-1">
                 <button className='w-75 text-light vegBtnTag rounded rounded-2'>{product.tag}</button>

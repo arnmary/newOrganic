@@ -5,8 +5,8 @@ import NewsLetterBlock from '../components/NewsLetterBlock';
 export default function ShopPage() {
   return (
     <>
-    <div className='container-fluid'>
-        <img src="/banner2.png" alt="banner organic shop" className='aboutBanner'/>
+    <div className='container-fluid w-100'>
+        <img src="/banner2.png" alt="banner organic shop" className='pageBanner'/>
         <h2 className='bannerTitle'>Shop</h2>
     </div>
     <Categories/>
