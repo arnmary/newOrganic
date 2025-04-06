@@ -11,20 +11,20 @@ export default function Footer() {
   
   return (
     <div className="footerContainer Container" id="footer">
-      <div className="d-flex flex-row justify-content-between border-bottom pb-3 mb-3 mx-5">
-        <div className="contacts border-end text-end p-5">
+      <div className="footerContent d-flex flex-row justify-content-between border-bottom pb-3 mb-3">
+        <div className="contacts border-end text-end">
           <h5 className='mainTitle footerTitle m-0'>Contact Us</h5>
           <ul>
             <li>
-              <p className='Open-sans-700 my-1'>Email</p>
+              <p className='footContactTitle'>Email</p>
               <a href="mailto:needhelp@Organia.com">needhelp@Organia.com</a>
             </li>
             <li>
-              <p className='Open-sans-700 my-1'>Phone</p>
+              <p className='footContactTitle'>Phone</p>
               <a href="tel:666888888">666 888 888</a>
             </li>
             <li>
-              <p className='Open-sans-700 my-1'>Address</p>
+              <p className='footContactTitle'>Address</p>
               <address>88 road, borklyn street, USA</address>
             </li>
           </ul>
@@ -52,12 +52,12 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="d-flex flex-column border-start text-start p-5">
+        <div className="d-flex footLinksSection flex-column border-start text-start ">
           <h5 className='mainTitle footerTitle m-0'>Utility Pages</h5>
           <ul className="nav flex-column">
             {menuItems.map((item, index) => (
               <li className="nav-item" key={index}>
-                <Link className="footLink nav-link Open-sans-400 text-secondary px-1 py-3" to={item.to}>
+                <Link className="footLink nav-link  text-secondary" to={item.to}>
                   {item.name}
                 </Link>
               </li>

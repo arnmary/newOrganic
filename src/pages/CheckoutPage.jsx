@@ -40,7 +40,7 @@ export default function CheckoutPage() {
   return (
     <>
       <div className="container-fluid pageBanner position-relative mt-0">
-        <img src="/banner9.png" alt="banner organic shop" className="w-100" />
+        <img src="/banner9.png" alt="banner organic shop" className="pageBanner" />
         <h2 className="bannerTitle">Checkout Page</h2>
       </div>
       <div className="container mt-4 w-50 mx-auto mb-5">

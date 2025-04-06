@@ -1,0 +1,266 @@
+@media screen and (max-width: 27rem){
+    body{
+        width: fit-content;
+        padding-left: 0.5rem;
+    }
+    .logoImg {
+        width: 1.31rem;
+        height: 2.56rem;
+    }
+    .headerContent
+   {
+        width: 90%;
+    }
+    p{
+        white-space: wrap;
+    }
+    .search {
+        width: 80%;
+    }
+    .descVector1,
+    .descVector2,
+    .descVector3,
+    .descVector4,
+    .descVector5,
+    .descVector6,
+    .descVector7,
+    .descVector8{
+      display: none;
+    }
+    h1 {
+      font-size: 2rem;  
+    }
+    h2, h3, h4, h5, h6, 
+    .blogPageTag,
+    .cartTitle,
+    .cartBtnIcon {
+        font-size: 1rem !important;
+    }
+    p {
+        font-size: 0.75rem !important;
+    }
+    .descImage{
+        min-height: 25rem;
+    }
+    .titleHeading{
+        top: 10%;
+    }
+    .imagesBlock {
+        width: 90%;
+        margin: 2rem auto;
+    }
+    .leftPart p {
+        left: 9%;
+    }
+    .rightPart p{
+        left: 55%;
+    }
+    .aboutBlock{
+       padding-bottom: 25rem;
+    }
+    .textBlock{
+     min-width: 80%;
+     white-space: wrap;
+    }
+
+    .product{
+        width: 70%;
+        min-height: 25rem;
+      }
+      .prodBlock{
+        margin: 10rem auto 4rem;
+      }
+      .cardBlock{
+        flex-wrap: wrap;
+      }
+      .loadBtn {
+        margin: 3.6rem auto 3.4rem auto;
+      }
+      .productVegan
+      .vegSecondBlock{
+        width: 90%;
+      }
+      .revBackImage{
+       min-height: 30rem;
+      }
+      .textRev{
+      right: 69%;
+      }
+      .reviewsSlide{
+        width: 90%;
+        top: 35%;
+        transform:translateX(0%);
+      }
+      .blogContent {
+      margin: 3rem auto o auto;
+      }
+      
+    .advantages{
+      display: none;
+    }
+    .textSection{
+        width: 85%;
+        top: 10%;
+        transform: translateX(10%);
+        padding: 0.5rem;
+    }
+    .secondText{
+        padding: 0.25rem;
+    }
+    .vegSecondImage{
+        min-height: 35rem;
+    }
+    .vegContent{
+        padding-top: 2rem;
+    }
+    
+    .galleryBlock{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+    }
+    .galleryImage{
+        max-width: 90%;
+        max-height: 20rem;
+    }
+    .galleryBtn{
+        top: 25%;
+        transform: translateX(-50%);
+    }
+    .blogImage{
+        width: 90%;
+        max-width: 24rem;
+        min-width: 20rem;
+        height: 20rem;
+    }
+    .textBlogBlock{
+        padding: 1rem;
+        width: 83%;
+        left: 1rem;
+        white-space: wrap;
+    }
+    .blogContent{
+        margin: 3rem auto;
+    }
+    .blogSecondTitle{
+        white-space: wrap;
+    }
+    .newsBlock{
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+    .emailInput, .newsSubmit {
+        padding: 0.5rem;
+        margin: 1.25%;
+    }
+    .newsLetterContent{
+        top: 6%;
+    }
+    .newsLetterHeading{
+        margin-right: 3rem;
+        font-size: 1rem;
+    }
+    #footer{
+        width: 100vw;
+    }
+    #footer ul{
+        padding-left: 1rem;
+    }
+    .contacts,.footLinksSection{
+        max-width: 25%;
+        padding: 0.75rem;
+        
+    }
+    .contacts a,
+    .contacts p,
+    .contacts address,
+    .footLink {
+        padding: 0;
+        margin: 0.25rem;
+    }
+    
+    .contacts a {
+        word-break: break-all;
+    }
+   
+    .footerContent{
+        margin: 0;
+    }
+    .cardWraper, .fourthBottom{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pageBanner{
+        width: 100vw;
+    }
+    .bannerTitle{
+        font-size: 2rem !important;
+        width: 50%;
+        top: 15%;
+    }
+    .secondImage,
+    .thirdImage{
+        display:none;
+    }
+    .secondText{
+        display: block;
+      width: 80%;
+      margin-left: 0;
+    }
+    .secondText p{
+        white-space: wrap;
+    }
+    .aboutIconWrap{
+        display: flex;
+        flex-direction: column;
+    }
+    .thirdContent,
+    .fifthContent{
+        padding: 2rem 1rem;
+    }
+    .secondBlock,
+    .thirdTop{
+        display: block;
+    }
+    .thirdBottom{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 3rem 0;
+    }
+    .thirdBtn{
+        padding: 2rem;
+    }
+    .thirdBtn p{
+       margin-bottom: 0;
+    }
+    .specification{
+        width: 50%;
+    }
+    .specification h5,
+    .specification p{
+       white-space: wrap;
+    }
+    .portfolioImgBlock{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:5rem  0;
+    }
+    .portfolioCard{
+        width: 80%;
+    }
+    .imgFluid{
+        width: 100vw;
+        height: 20rem;
+    }
+    .clientData {
+        width: 47%;
+        padding: 1rem;
+    }
+}

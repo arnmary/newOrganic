@@ -80,6 +80,8 @@ body {
 }
 .descBtn {
   font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
   width: 36%;
   padding: 1.75rem 2.43rem;
   background-color: var(--yellowBackground);
@@ -151,7 +153,11 @@ body {
 
 .imagesBlock {
   width: 75%;
-  margin: 9.6rem auto 11rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 9.6rem auto 11rem auto;
 }
 .leftPartImage,
 .rightPartImage {
@@ -197,7 +203,7 @@ body {
 }
 .textBlock {
   position: absolute;
-  top: 5%;
+  top: 20%;
   right: 0;
 }
 .textTop {
@@ -258,10 +264,15 @@ body {
 }
 .prodBlock {
   width: 100%;
-  margin-bottom: 10rem;
+  margin: 10rem auto;
 }
 .productList {
-  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 3rem auto;
 }
 .product {
   width: 24%;
@@ -310,18 +321,19 @@ body {
   background-color: var(--secondaryTextColor);
 }
 .revBack {
+  width: 100%;
   margin: 12rem 0 0;
 }
 .textRev {
   position: absolute;
   top: 8%;
-  transform: translateX(100%);
+  transform: translateX(140%);
   z-index: 5;
 }
 .reviewsSlide {
   position: absolute;
   top: 27%;
-  transform: translateX(50%);
+  transform: translateX(77%);
   margin-bottom: 6.3rem;
 }
 .mySwiper {
@@ -340,6 +352,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 1rem;
 }
 .customerDescription,
 .customerCategory {
@@ -354,10 +367,12 @@ body {
   text-align: center;
 }
 .advantages {
+  display: flex;
+  flex-direction: row;
   max-width: 60%;
   position: absolute;
   top: 70%;
-  transform: translateX(34%);
+  transform: translateX(50%);
   z-index: 12;
   border-top: #e0e0e0 solid 0.1rem;
   margin-bottom: 10rem;
@@ -369,7 +384,7 @@ body {
   white-space: nowrap;
 }
 .circle {
-  width: 25%;
+  width: 23%;
   border: 0.3rem solid;
   border-color: var(--secondaryTextColor);
   border-radius: 50%;
@@ -435,8 +450,8 @@ body {
 .textSection {
   position: absolute;
   background-color: var(--whiteBackground);
-  top: 5%;
-  transform: translateX(93%);
+  top: 17%;
+  transform: translateX(125%);
   padding: 2.8rem 3.6rem;
   border-radius: 2rem;
 }
@@ -445,7 +460,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.56rem;
   font-weight: 500;
-  padding: 1.8rem 0 0.43rem;
+  padding: 1.8rem 0 0.43rem 0;
 }
 .cardWrap {
   position: relative;
@@ -454,7 +469,7 @@ body {
 max-width: 28rem;
  max-height: 28rem;
 }
-.galeryBlock {
+.galleryBlock {
   background-color: var(--lightGreenBackground);
   padding: 11.68rem 0;
   display: flex;
@@ -530,7 +545,7 @@ transform: translateX(-162%);
   margin: 0 auto;
 }
 .newsLetterImage {
-  width: 100%;
+ max-width: 100%;
   margin: 1.5rem auto 7.31rem;
 }
 .newsLetterContent {
@@ -540,13 +555,14 @@ transform: translateX(-162%);
 }
 .newsletterHeading {
   font-size: 3.5rem;
-  padding-right: 6rem;
+  padding-right: 10rem;
 }
 .emailInput {
   padding: 1.75rem 10.85rem 1.93rem 1.43rem;
   border-radius: 1rem;
   color: var(--simpleText);
   border: none;
+  margin: 2rem;
 }
 .newsSubmit {
   padding: 1.75rem;
@@ -554,6 +570,10 @@ transform: translateX(-162%);
   background-color: var(--blueBackground);
   color: var(--lightText);
   border: none;
+  margin-left: 1rem;
+}
+.footerContent{
+  margin: 0 3rem;
 }
 .footerTitle {
   font-family: "Roboto", sans-serif;
@@ -574,14 +594,21 @@ transform: translateX(-162%);
   padding: 1rem;
   margin: 0 auto;
 }
+.contacts{
+  padding: 3rem;
+}
 .contacts a,
 p,
 address,
 .footLink {
+  padding:1rem 0.25rem ;
   font-family: "Open Sans", sans-serif;
   font-size: 1.12rem;
   text-decoration: none;
   color: var(--simpleText);
+}
+.footLinksSection{
+padding: 3rem;
 }
 
 .footerText {
@@ -592,6 +619,7 @@ address,
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 1.12rem;
+  margin: 0.25rem 0;
 }
 #footer {
   left: 0;
@@ -602,6 +630,8 @@ address,
 
 .secondBlock {
   width: 100%;
+  display: flex;
+  flex-direction: row;
   padding-top: 4.25rem;
 }
 .secondImage {
@@ -609,9 +639,20 @@ address,
   margin-left: 0;
   padding-top: 4.25rem;
 }
-
+.aboutIconWrap{
+display: flex;
+flex-direction: row;
+justify-content: start;
+margin: 3rem 3rem 0 0;
+}
 .secondText {
-  margin-left: 2.5rem;
+  font-family:  "Roboto", sans-serif;
+  font-weight: 500;
+  /* width: 50%; */
+  text-align: center;
+  /* margin-left: 2.5rem; */
+  padding: 0.5rem 0;
+  white-space: nowrap;
 }
 .thirdBlock {
   background-color: var(--lightBackground);
@@ -636,8 +677,8 @@ address,
 .thirdBottom {
   display:flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 1rem;
+  justify-content:space-between;
+  gap: 2rem;
   margin: 5.68rem auto 7.81rem;
   width: 85%;
 }
@@ -996,7 +1037,8 @@ h3 {
 .inputWrap {
   width: 48%;
 }
-.form-control {
+.search {
+  width: 100%;
   padding: 1.3rem 1rem;
 }
 #message {
@@ -1172,7 +1214,7 @@ h3 {
     margin-right: 0;
   }
   .descBtn {
-    width: 90%;
+    width: 100%;
     margin-right: 0;
   }
   .descBtn,
@@ -1181,7 +1223,7 @@ h3 {
   .loadBtn,
   .vegBtn,
   .blogSectionBtn {
-    font-size: 0.75rem;
+    font-size: 0.75rem !important;
     padding: 0.75rem 1.43rem;
     white-space: nowrap;
     flex-direction: row;
@@ -1195,10 +1237,10 @@ h3 {
   }
   .descTitle,
   .mainText {
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
   }
   .descSecondTitle {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
   .imagesBlock p,
   .imagesBlock h3 {
@@ -1234,7 +1276,7 @@ h3 {
     padding: 1.75rem 4.85rem 1.75rem 1.5rem;
     font-size: 0.75rem;
   }
-  .galeryBlock {
+  .galleryBlock {
     width: 100%;
     justify-content: space-between;
   }
@@ -1339,170 +1381,4 @@ h3 {
     display: none;
   }
 }
-@media screen and (max-width: 420px) {
-  .headerCont{
-   max-width: 80%;
-  }
-  .mainTitle {
-    font-size: 1.8rem;
-    text-align: center;
-  }
 
-  .descSecondTitle {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-
-  .descBtn {
-    width: 80%;
-    padding: 1rem;
-    font-size: 1rem;
-  }
-
-  .titleHeading {
-    transform: translateX(0);
-    top: 20%;
-    text-align: center;
-  }
-
-  .imagesBlock {
-    width: 95%;
-    margin: 4rem auto;
-  }
-
-  .leftPartText, .rightPartText {
-    font-size: 1.5rem;
-    transform: translateX(0);
-    text-align: center;
-    width: 100%;
-  }
-  .leftPartText{
-    left: -36%;
-  }
- .rightPartText{
-  left: 10%;
- }
- .loadBtn{
-  margin: 1rem auto;
-  display: flex;
-  flex-direction: row;
- }
- .textBlock{
-  right: 1%;
- }
-
-  .aboutBlock {
-    text-align: center;
-    padding-bottom: 10rem;
-  }
-
-  .product {
-    width: 60%;
-    min-height: 20rem;
-  }
-
-  .prodDeck, .prodTag {
-    font-size: 1rem;
-    text-align: center;
-  }
-  .customerImage{
-    width: 10%;
-  }
-  .textRev{
-    top: 2%;
-   transform: translateX(53%);
-  }
-  .reviewsSlide{
-    transform: translateX(0%);
-    top: 6%;
-  }
-
-  .advantages {
-    max-width: 90%;
-    transform: translateX(0);
-    top: 60%;
-    text-align: center;
-  }
-  .cardBlock{
-    width: 100%;
-  }
-  .vegPrice{
-    font-size: 0.55rem;
-  }
-  .galleryBtn{
-    top: 36%;
-    left: 100%;
-  }
-
-  .textSection {
-    transform: translateX(0);
-    width: 90%;
-    padding: 1.5rem;
-  }
-
-  .galeryBlock {
-    flex-direction: column;
-   justify-content: center;
-  }
-  .thirdContent{
-    padding: 1rem;
-  }
-
-  .fourthBottom{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .fourthContent{
-    margin: 0 auto;
-  }
-
-  .blogTitle {
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  .blogImage {
-    width: 100%;
-    height: auto;
-  }
-
-  .newsletterHeading {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-
-  .emailInput {
-    width: 100%;
-    padding: 1rem;
-  }
-
-  .newsSubmit {
-    width: 100%;
-    padding: 1rem;
-  }
-  .cardWraper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .portfolioImgBlock {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .portfolioCard{
-    width: 50%;
-  }
-
-  .footerTitle {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-.firstSectionContact img {
-    max-width: 21rem;
-}
-.notFoundText{
-  left: 100%;
-}
-}

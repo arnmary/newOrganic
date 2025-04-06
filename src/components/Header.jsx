@@ -28,7 +28,7 @@ export default function Header({ onSearch }) {
     <>
      <div className="d-flex align-items-center justify-content-center justify-content-between px-5 my-5 ">
      <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light w-100" aria-label="Main navigation">
-          <div className="container-fluid headerCont d-flex flex-row align-items-center justify-content-between mx-5">
+          <div className="container-fluid headerCont d-flex flex-row align-items-center justify-content-between mx-3 mx-sm-2">
             <div className="brand d-flex flex-row align-items-center py-2">
               <Link className="navbar-brand" to="/home">
                 <img src="/logo.png" alt="logo img" id="logo" className='logoImg'/>
@@ -86,7 +86,7 @@ export default function Header({ onSearch }) {
               </ul>
               <form className="position-relative pe-1" role="search" onSubmit={handleSearchSubmit}>
               <input
-  className="form-control rounded-5 w-100 bg-light py-3 pe-1 text-primary-emphasis"
+  className="form-control search rounded-5 bg-light py-3 pe-1 text-primary-emphasis"
   type="search"
   aria-label="Search"
   value={query}

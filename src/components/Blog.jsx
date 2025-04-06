@@ -37,7 +37,7 @@ export default function Blog() {
                    
                   </div>
                 </div>
-          <div className="cardBlogWrap d-flex flex-row justify-content-center flex-wrap py-5 my-5">
+          <div className="cardBlogWrap d-flex flex-row justify-content-center flex-wrap my-5">
         {firstTwoBlogs.map((blog) => (
           <div key={blog.id} className="cardBlog position-relative p-3 mb-5">
             <img src={blog.imgSrc} alt={blog.alt} className="blogImage rounded rounded-5 " />
@@ -50,7 +50,7 @@ export default function Blog() {
                 <p className="userName mx-1 my-0">By {blog.author}</p>
               </span>
               <h6 className="blogSecondTitle m-0">{blog.title}</h6>
-              <p className="simpleText open-sans-400">{blog.text}</p>
+              <p className="simpleText">{blog.text}</p>
               <button
                 className="blogSectionBtn rounded rounded-4 d-flex align-items-center"
                 onClick={() =>

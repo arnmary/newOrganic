@@ -19,7 +19,7 @@ export default function PortfolioPage() {
   return (
     <>
   <div className='container-fluid pageBanner position-relative'>
-          <img src="/banner6.png" alt="banner organic shop" className='w-100' />
+          <img src="/banner6.png" alt="banner organic shop" className='pageBanner' />
           <h2 className='bannerTitle'>Portfolio Standard</h2>
   </div>
     <div className="portfolioImgBlock">

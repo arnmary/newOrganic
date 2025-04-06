@@ -11,11 +11,11 @@ export default function AboutContent() {
 
   return (
     <>
-       <div className='secondBlock container-fluid d-flex flex-row'>
-      <div className='conteiner w-50 ms-0'>
+       <div className='secondBlock container-fluid'>
+      <div className='conteiner ms-0'>
           <img src="/image12.png" alt="Vegitables image" className='secondImage'/>
       </div>
-      <div className="secondText text-start conteiner w-50  ms-5">
+      <div className="secondText text-start conteiner">
       <h3 className="textTop">About Us</h3>
       <h4 className='mainText mb-3'>
       We do Creative <br />
@@ -30,7 +30,7 @@ export default function AboutContent() {
        to been the industry's standard dummy text ever since the 1500s, when an <br />
         unknown printer took a galley.
       </p>
-      <div className='d-flex flex-row justify-content-start mt-5 me-5'>
+      <div className='aboutIconWrap'>
       <div className='d-flex flex-row me-3'>
           <img src="/icon3.png" alt="Tractor icon" />
           <h4 className='secondText text-start ms-3'>
@@ -75,7 +75,7 @@ export default function AboutContent() {
                     </p>
                     <div className='d-flex flex-row align-items-center thirdBtn  rounded rounded-5 '>
                     <FontAwesomeIcon icon={faCircleDot} className=' ms-4 dotIcon'  />
-                    <p className='roboto-500 secondText pt-2 ms-2 my-0 text-nowrap'>100% Natural Product</p>
+                    <p className=' secondText'>100% Natural Product</p>
                     </div>
                     <p className="simpletext ms-5">
                     Simply dummy text of the printing and typesetting <br />
@@ -83,7 +83,7 @@ export default function AboutContent() {
                     </p>
                     <div className='d-flex flex-row align-items-center thirdBtn rounded rounded-5 '>
                     <FontAwesomeIcon icon={faCircleDot} className=' ms-3 dotIcon'  />
-                    <p className='roboto-500 secondText p-0 ms-2 my-0'> Increases resistance</p>
+                    <p className=' secondText'> Increases resistance</p>
                     </div>
                     <p className="simpletext ms-5">
                     Filling, and temptingly healthy, our Biona Organic <br />
@@ -91,13 +91,13 @@ export default function AboutContent() {
                     </p>
                 </div>
                 <div className='w-50'>
-                    <img src="/image13.jpg" alt="Vegitables image" className='w-100 py-3 ms-2 h-100'/>
+                    <img src="/image13.jpg" alt="Vegitables image" className='thirdImage w-100 py-3 ms-2 h-100'/>
                 </div>
             </div>
-<div className="thirdBottom d-flex flex-row justify-content-between gap-2">
+<div className="thirdBottom">
     <div className="specification d-flex flex-column justify-content-center align-content-center px-3 py-5 bg-white">
         <img src="/icon5.png" alt="Cart icon" className='p-1 bg-white w-50 mx-auto' />
-        <h5 className="secondText text-center py-2 m-0 text-nowrap">Return Policy</h5>
+        <h5 className="secondText text-center py-2 m-0">Return Policy</h5>
         <p className='text-center simpleText'>
             Simply dummy text of <br />
             the printintypesetting <br />
@@ -106,7 +106,7 @@ export default function AboutContent() {
     </div>
     <div className="specification d-flex flex-column justify-content-center align-content-center px-3 py-5 bg-white">
         <img src="/icon6.png" alt="Cart icon" className='p-1 bg-white w-50 mx-auto' />
-        <h5 className="secondText text-center py-2 m-0 text-nowrap">100% Fresh</h5>
+        <h5 className="secondText text-center">100% Fresh</h5>
         <p className='text-center simpleText'>
             Simply dummy text of <br />
             the printintypesetting <br />
@@ -115,7 +115,7 @@ export default function AboutContent() {
     </div>
     <div className="specification d-flex flex-column justify-content-center align-content-center px-3 py-5 bg-white ">
         <img src="/icon7.png" alt="Cart icon" className='p-1 bg-white w-50 mx-auto' />
-        <h5 className="secondText text-center py-2 m-0 text-nowrap">Support 24/7</h5>
+        <h5 className="secondText text-center">Support 24/7</h5>
         <p className='text-center simpleText'>
             Simply dummy text of <br />
             the printintypesetting <br />
@@ -124,7 +124,7 @@ export default function AboutContent() {
     </div>
     <div className="specification d-flex flex-column justify-content-center align-content-center px-3 py-5 bg-white">
         <img src="/icon8.png" alt="Cart icon" className='p-1 bg-white w-50 mx-auto' />
-        <h5 className="secondText text-center py-2 m-0 text-nowrap">Secured Payment
+        <h5 className="secondText text-center ">Secured Payment
         </h5>
         <p className='text-center simpleText'>
             Simply dummy text of <br />

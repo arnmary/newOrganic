@@ -40,11 +40,11 @@ export default function VegitableSection() {
                   {product.description}
                 </h3>
                 <div className='cardVegBot d-flex flex-row justify-content-between text-end'>
-                  <p className="product-price vegPrice">
+                  <p className="product-price vegPrice mb-0">
                     <span className='text-secondary disabledText vegPrice p-1'>{product.priceDisabled} $ </span>
                     {product.price} $.
                   </p>
-                  <div className="rating vegPrice mx-2">
+                  <div className="rating vegPrice mx-2 mt-3">
                     {Array.from({ length: product.rating }).map((_, index) => (
                       <FontAwesomeIcon key={index} icon={faStar} className="text-warning" />
                     ))}
@@ -56,8 +56,8 @@ export default function VegitableSection() {
         </div>
       </div>
 
-      <div className='w-100 position-relative'>
-        <img src="/image5.png" alt="landscape image" className='w-50' />
+      <div className='vegSecondBlock position-relative'>
+        <img src="/image5.png" alt="landscape image" className='w-50 vegSecondImage' />
         <div className="textSection">
           <h3 className="textTop pb-1 m-0">Eco Friendly</h3>
           <h4 className='mainText m-0 '>Econis is a Friendly <br /> Organic Store</h4>

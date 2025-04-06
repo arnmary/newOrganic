@@ -8,7 +8,7 @@ export default function ServicesPage() {
   return (
     <>
   <div className='container-fluide '>
-        <img src="/banner4.png" alt="banner organic shop" className='w-100'/>
+        <img src="/banner4.png" alt="banner organic shop" className='pageBanner'/>
         <h2 className='bannerTitle'>Services</h2>
 </div>
       <h4 className='textTop servHeadingTop text-center'>What we Grow</h4>

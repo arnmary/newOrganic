@@ -8,7 +8,7 @@ export default function TeamPage() {
   return (
     <>
     <div className='container-fluid pageBanner position-relative'>
-        <img src="/banner7.png" alt="banner organic shop" className='w-100' />
+        <img src="/banner7.png" alt="banner organic shop" className='pageBanner' />
         <h2 className="bannerTitle">Our Team</h2>
     </div>
     <div className="fourthContent">

@@ -21,7 +21,7 @@ export default function CartPage() {
   return (
     <>
       <div className="container-fluid pageBanner position-relative mt-0">
-        <img src="/banner9.png" alt="banner organic shop" className="w-100" />
+        <img src="/banner9.png" alt="banner organic shop" className="pageBanner" />
         <h2 className="bannerTitle">Cart</h2>
       </div>
       <div className="container my-5 w-75 mx-auto">

@@ -12,8 +12,8 @@ export default function Reviews() {
   const {customers}=data;
 
   return (
-    <div className="revBack position-relative w-100">
-      <img src="/background3.png" alt="Background organic image" className="w-100" />
+    <div className="revBack position-relative ">
+      <img src="/background3.png" alt="Background organic image" className="w-100 revBackImage" />
       <div className="textRev">
         <h3 className="textTop text-center">Testimonial</h3>
         <h4 className="mainText text-center">What Our Customer Saying?</h4>
@@ -42,7 +42,7 @@ export default function Reviews() {
           ))}
         </Swiper>
       </div>
-      <div className="advantages  d-flex flex-row">
+      <div className="advantages">
 <div className=" circle  bg-light p-5 m-2">
     <h3 className='text-center p-1 roboto-800 mainText '>100%</h3>
     <p className='text-center open-sans-600 '>Organic</p>

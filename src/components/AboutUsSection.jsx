@@ -6,9 +6,9 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 export default function AboutUsSection() {
   return (
     <>
-    <div className=" container-fluid aboutBlock w-100">
+    <div className=" container-fluid aboutBlock">
     <img src="/image4.png" alt="Background fruits image" className='aboutBackgr'/>
-    <div className='conteiner textBlock  text-start w-50'>
+    <div className='conteiner textBlock  text-start'>
         <h3 className='textTop mx-2'>About Us</h3>
         <h4 className='mainText roboto-800  mx-2'>
          We Believe in Working <br />
