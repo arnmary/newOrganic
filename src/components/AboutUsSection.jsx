@@ -10,18 +10,18 @@ export default function AboutUsSection() {
     <img src="/image4.png" alt="Background fruits image" className='aboutBackgr'/>
     <div className='conteiner textBlock  text-start'>
         <h3 className='textTop mx-2'>About Us</h3>
-        <h4 className='mainText roboto-800  mx-2'>
+        <h4 className='mainText'>
          We Believe in Working <br />
           Accredited Farmers
           </h4>
-          <p className='simpleText text-secondary mx-2'>
+          <p className='simpleText text-secondary '>
           Simply dummy text of the printing and typesetting industry. Lorem had ceased to <br />
           been the industry's standard dummy text ever since the 1500s, when an unknown <br />printer took a galley.
           </p>
           <div className='d-flex flex-row'>
           <img src="/icon1.png" alt="Plate leave image" className='m-2'/>
           <div className='m-2'>
-         <h4 className='roboto-800 smallMainText'>Organic Foods Only</h4>
+         <h4 className=' smallMainText'>Organic Foods Only</h4>
          <p className='simpleText text-secondary'>
             Simply dummy text of the printing and typesetting <br />
              industry. Lorem Ipsum</p>
@@ -30,7 +30,7 @@ export default function AboutUsSection() {
           <div className='d-flex flex-row'>
           <img src="/icon2.png" alt="Plate leave image" className='m-2'/>
           <div className='m-2'>
-         <h4 className='roboto-800 smallMainText'>Quality Standards</h4>
+         <h4 className=' smallMainText'>Quality Standards</h4>
          <p className='simpleText text-secondary'>
             Simply dummy text of the printing and typesetting <br />
              industry. Lorem Ipsum</p>

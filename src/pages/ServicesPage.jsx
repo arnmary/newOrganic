@@ -16,9 +16,9 @@ export default function ServicesPage() {
          Better Agriculturefor <br />
          Better Future
      </h3>
-      <div className='servSecondBlock w-100 py-5 mx-auto d-flex flex-row justify-content-center'>
-<div className='my-5 py-5'>
-   <div className="textServCard my-5">
+      <div className='servSecondBlock  py-5 d-flex flex-row justify-content-center'>
+<div className='servSecondLeftPart my-5'>
+   <div className="textServCard">
      <img src="/icon9.png" alt="Bottle icon" className='leftServCard' />
       <h4 className='secondText text-end'>Dairy Products</h4>
         <p className='simpleText text-end'>
@@ -27,7 +27,7 @@ export default function ServicesPage() {
             Sed ut perspiciatis
        </p>
    </div>
-  <div className="textServCard pb-5">
+  <div className="textServCard ">
      <img src="/icon10.png" alt="House icon" className='leftServCard' />
      <h4 className='secondText text-end'>Store Services</h4>
       <p className='simpleText text-end'>
@@ -47,10 +47,10 @@ export default function ServicesPage() {
    </div>
 </div>
 <div>
-    <img src="/product17.png" alt="Pistachios image" className='w-100' />
+    <img src="/product17.png" alt="Pistachios image" className='servImage ' />
 </div>
-<div className='my-5 py-5'>
-    <div className="textServCard py-5 ">
+<div className='servSecondLeftPart my-5'>
+    <div className="textServCard">
         <img src="/icon12.png" alt="Bottle icon" className='rightServCard' />
          <h4 className='secondText text-start'>Agricultural Services</h4>
          <p className='simpleText text-start'>
@@ -59,7 +59,7 @@ export default function ServicesPage() {
              Sed ut perspiciatis
          </p>
   </div>
-  <div className="textServCard pb-5">
+  <div className="textServCard">
        <img src="/icon13.png" alt="Bottle icon" className='rightServCard' />
           <h4 className='secondText text-start'>Organic Products</h4>
              <p className='simpleText text-start'>

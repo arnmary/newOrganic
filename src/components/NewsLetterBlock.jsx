@@ -28,7 +28,7 @@ export default function NewsletterBlock() {
   return (
     <div className='newsBlock'>
       <div className='contentNews position-relative'>
-        <img src='/image11.png' alt='Fruits background' className='newsletterImage w-100' />
+        <img src='/image11.png' alt='Fruits background' className='newsletterImage' />
         <div className=' d-flex flex-row align-items-center newsLetterContent'>
           <div>
                <h3 className='newsletterHeading mainLightText m-0'>

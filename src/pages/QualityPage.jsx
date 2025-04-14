@@ -52,11 +52,11 @@ Organic Store Services
     <div className="qualityButtons d-flex flex-row gap-2">
         <button className='bg-body-tertiary rounded-5 w-50 py-3 ps-1 d-flex flex-row justify-content-start'>
              <strong className='rounded-5 bg-success bg-opacity-50 p-2  ms-2 text-start text-light'>01</strong>
-                 <p className='quatitiBtn mb-0 pt-2  ms-4'>Best quality support</p>
+                 <p className='qualityBtn mb-0 pt-2 '>Best quality support</p>
         </button>
         <button className='bg-body-tertiary rounded-5 w-50 d-flex flex-row'>
               <strong className='rounded-5 bg-success bg-opacity-50 p-2 ms-2  text-start text-light'>02</strong>
-                  <p className='quatitiBtn mb-0 pt-2  ms-4'>Money back guarantee</p>
+                  <p className='qualityBtn mb-0 pt-2'>Money back guarantee</p>
         </button>
     </div>
 </div>

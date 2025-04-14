@@ -94,7 +94,7 @@ export default function ContactPage() {
     <p>Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using.</p>
   <div className="d-flex flex-row align-items-center gap-2 contactCard w-100 ">
               <FontAwesomeIcon icon={faLocationDot} className="textTop p-3 contactIcon " />
-        <div className='py-3'>
+        <div className=''>
                 <p className="simpleText m-0">
                     <span >
                          New York, USA:
@@ -106,7 +106,7 @@ export default function ContactPage() {
    </div>
         <div className="d-flex flex-row align-items-center gap-2 contactCard w-100 ">
               <FontAwesomeIcon icon={faLocationDot} className="textTop p-3 contactIcon " />
-          <div className='py-3'>
+          <div className=''>
                 <p className="simpleText m-0">
                     <span>  London, UK: </span><br />
                       30 Stamford Street,

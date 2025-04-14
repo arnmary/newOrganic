@@ -1,18 +1,22 @@
 @media screen and (max-width: 27rem){
     body{
         width: fit-content;
-        padding-left: 0.5rem;
     }
     .logoImg {
         width: 1.31rem;
         height: 2.56rem;
     }
-    .headerContent
-   {
+    .headerContent{
         width: 90%;
     }
-    p{
+    .navbar-toggler-icon {
+        padding: 0 1rem;
+    }
+    p, .simpleText{
+        max-width: 85%;
         white-space: wrap;
+        margin: 0 1rem;
+        padding: 0;
     }
     .search {
         width: 80%;
@@ -46,7 +50,7 @@
         top: 10%;
     }
     .imagesBlock {
-        width: 90%;
+       max-width: 90%;
         margin: 2rem auto;
     }
     .leftPart p {
@@ -56,13 +60,16 @@
         left: 55%;
     }
     .aboutBlock{
-       padding-bottom: 25rem;
+       padding-bottom: 35rem;
+    }
+    .aboutBackgr{
+        display: none;
     }
     .textBlock{
-     min-width: 80%;
+     left: 1rem;
      white-space: wrap;
+     text-align: start;
     }
-
     .product{
         width: 70%;
         min-height: 25rem;
@@ -149,10 +156,14 @@
         white-space: wrap;
     }
     .newsBlock{
-        width: 100%;
+        width: 98%;
         margin: 0;
         padding: 1rem;
     }
+    .newsBlock img{
+         max-width: 92vw;
+    }
+   
     .emailInput, .newsSubmit {
         padding: 0.5rem;
         margin: 1.25%;
@@ -168,7 +179,7 @@
         width: 100vw;
     }
     #footer ul{
-        padding-left: 1rem;
+        padding-left: 0.5rem;
     }
     .contacts,.footLinksSection{
         max-width: 25%;
@@ -180,7 +191,6 @@
     .contacts address,
     .footLink {
         padding: 0;
-        margin: 0.25rem;
     }
     
     .contacts a {
@@ -233,11 +243,18 @@
         align-items: center;
         margin: 3rem 0;
     }
+    .thirdServBlock img {
+        width: 100%;
+    }
     .thirdBtn{
-        padding: 2rem;
+        padding: 1rem;
     }
     .thirdBtn p{
        margin-bottom: 0;
+    }
+    .servButomn{
+        left: 1rem;
+
     }
     .specification{
         width: 50%;
@@ -263,4 +280,106 @@
         width: 47%;
         padding: 1rem;
     }
+    .servHeadingTop {
+        margin-top: 2.6rem;
+    }
+    .servSecondBlock{
+        margin: 0;
+    }
+    .servSecondLeftPart{
+        width: 50%;
+        padding: 1rem 0;
+    }
+    .servImage{
+        display: none;
+    }
+    .rightServCard {
+        margin-right: 3rem;
+    }
+
+    .textServCard{
+        margin: 0;
+    }
+      .firstSectionContact img{
+        display: none;
+      }
+      .contactSecondBlock{
+        margin: 3rem auto 2rem;
+      }
+      .iconBack .contactIcon{
+        margin: 0;
+      }
+    .leftServCard {
+        margin-left: 3rem;
+    }
+    .firstRightPart{
+        width: 75%;
+    }
+    .location{
+      max-width: 85%;
+        padding: 0.5rem;
+        top: 0rem;
+        right: -2rem;
+    }
+    .secondSectionContact{
+        margin: 4.1rem auto 3rem auto;
+    }
+    .location p{
+        margin: 0;
+        padding: 0;
+    }
+    .notFoundFirstImg {
+        padding-bottom: 0;
+    }
+    .notFoundImg{
+        width: 40%;
+    }
+    .notFoundText{
+        top: 15%;
+        transform: translateX(15%);
+    }
+    .notFoundText p{
+        margin: 0.5%;
+        padding: 0.5rem;
+    }
+    .notfoundBtn {
+        flex-direction: row;
+        bottom: -41%;
+        padding: 0.5rem 0.7rem;
+        font-size: 0.75rem;
+    }
+    .qualityBtn{
+        margin: 0;
+    }
+    .singleTagBtn{
+        padding: 0.6em 0.2em;
+    }
+    .productDetailsCard {
+        display: flex;
+        flex-direction: column;
+    }
+    .detImage {
+        width: 80%;
+        margin: 0 1rem;
+    }
+    .details{
+      width: 80%; 
+      padding: 1rem 0.5rem; 
+      margin: 1rem;
+    }
+    .detailsFirstBtn{
+        padding: 1rem;
+    }
+    .detailsSecondBtn, .detailsBtn{
+     padding: 0.5rem;
+     font-size: 0.75rem;
+    }
+    .abovBtn{
+        padding: 0.5rem 0.43rem;
+    }
+    .addedBlock{
+        width: 80%;
+    }
+ 
+
 }

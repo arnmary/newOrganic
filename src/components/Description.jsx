@@ -37,7 +37,7 @@ export default function Description() {
         <img src="/vector8.png" alt="Additional vector" className='descVector8' />
         <img src="/image1.png" alt="Background image" className='descImage ' />
       </div>
-      <div className='container container-sm position-relative imagesBlock'>
+      <div className='container position-relative imagesBlock'>
       <div className="leftPart">
           <img src="/image2.png" alt="Background fruits image" className='leftPartImage p-3  ' />
           <h3 className='leftPartText textTop text-light m-0'>

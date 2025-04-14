@@ -17,9 +17,18 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--whiteBackground);
   overflow-x: hidden;
-  width: 100%;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+}
+.headerCont{
+  width: 93%;
 }
 .mainText,
 .mainTitle,
@@ -201,10 +210,10 @@ body {
   width: 100%;
   margin-left: 0;
 }
-.textBlock {
+.textBlock{
   position: absolute;
   top: 20%;
-  right: 0;
+  left: 50%;
 }
 .textTop {
   font-family: Yellowtail, cursive;
@@ -217,6 +226,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 2.5rem;
   font-weight: 800;
+  margin: o 0.5rem;
 }
 .mainLightText {
   color: var(--lightText);
@@ -231,6 +241,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: var(--simpleText);
   font-weight: 400;
+  margin: 0 0.5rem;
 }
 .simpleText {
   font-size: 1.125rem;
@@ -540,12 +551,12 @@ transform: translateX(-162%);
 }
 .newsBlock {
   position: relative;
-  width: 75%;
+  width: 95%;
   padding: 1.5rem;
   margin: 0 auto;
 }
-.newsLetterImage {
- max-width: 100%;
+.newsLetterImage{
+width: 100%;
   margin: 1.5rem auto 7.31rem;
 }
 .newsLetterContent {
@@ -555,9 +566,10 @@ transform: translateX(-162%);
 }
 .newsletterHeading {
   font-size: 3.5rem;
-  padding-right: 10rem;
+  padding-right: 16rem;
 }
 .emailInput {
+  background: var(--lightBackground);
   padding: 1.75rem 10.85rem 1.93rem 1.43rem;
   border-radius: 1rem;
   color: var(--simpleText);
@@ -648,9 +660,7 @@ margin: 3rem 3rem 0 0;
 .secondText {
   font-family:  "Roboto", sans-serif;
   font-weight: 500;
-  /* width: 50%; */
   text-align: center;
-  /* margin-left: 2.5rem; */
   padding: 0.5rem 0;
   white-space: nowrap;
 }
@@ -727,18 +737,41 @@ margin: 3rem 3rem 0 0;
   background-color: var(--whiteBackground);
   border-radius: 10%;
 }
+.productDetailsCard{
+  width: 100%;
+ display: flex;
+ flex-direction: row; 
+ margin: 3rem 0;
+
+}
 
 .detImage {
   position: relative;
   overflow: hidden;
-  width: 36.9rem;
+  width: 50%;
   height: auto;
-  padding: 1rem;
+  padding: 3rem;
+  margin-top: 3rem;
   box-shadow: 0 0.25rem 0.37rem #0000001a;
   transition: transform 0.2s, box-shadow 0.2s;
 }
+.details{
+  width: 50%;
+  padding: 3rem 1.5rem;
+  margin: 3rem;
+}
 .details h5 {
   font-weight: 600;
+
+}
+.detailsFirstBtn{
+  width: 50%;
+  margin: 0 1.5rem;
+}
+.detailsSecondBtn{
+  width: 25%;
+  padding: 1.5rem 0;
+  margin: 1rem;
 }
 .detailsBtn {
   font-family: "Open Sans", sans-serif;
@@ -746,6 +779,8 @@ margin: 3rem 3rem 0 0;
   font-weight: 700;
   background-color: var(--lightGreenBackground);
   color: var(--mainTextColor);
+  width: 25%;
+  padding: 1.5rem 0;
 }
 .relatedProduct h3:first-child,
 .servSecondHeading {
@@ -754,6 +789,7 @@ margin: 3rem 3rem 0 0;
   font-weight: 800;
   font-size: 3.11rem;
   margin: 8.75rem auto 2.5rem;
+  text-align: center;
 }
 .singleTagBtn {
   background-color: var(--blueBackground);
@@ -768,10 +804,21 @@ margin: 3rem 3rem 0 0;
 .servSecondHeading {
   margin: 0.37rem auto 0;
 }
+.servSecondBlock{
+  width: 100%;
+  margin: 0 auto;
+}
+.servImage{
+  width: 100%;
+}
+.servSecondLeftPart{
+  padding: 3rem 0;
+}
 .servSecondBlock h4 {
   padding: 0.31rem 0;
   margin: 0;
 }
+
 .leftServCard {
   margin-left: 17rem;
 }
@@ -786,13 +833,12 @@ margin: 3rem 3rem 0 0;
 }
 .thirdServBlock img {
   width: 100%;
-  max-width: 94rem;
   margin: 0;
 }
 .servButomn {
   position: absolute;
   top: 11rem;
-  left: 30rem;
+  left: 40rem;
 }
 .circlePlay {
   margin-block-start: auto;
@@ -825,11 +871,12 @@ margin: 3rem 3rem 0 0;
 .qualitySecondTitle {
   font-size: 2.18rem;
 }
-.quatitiBtn {
+.qualityBtn {
   color: var(--mainTextColor);
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 1.56rem;
+  margin-left: 1.5rem;
 }
 .portfolioImgBlock {
   width: 100%;
@@ -1017,7 +1064,7 @@ li {
 }
 .location {
   position: absolute;
-  top: 5rem;
+  top: 13rem;
   right: 6rem;
   max-width: 45%;
   padding: 2.3rem 3.3rem;
@@ -1156,7 +1203,7 @@ h3 {
   }
   .location {
     padding: 1rem;
-    top: 1rem;
+    top: 13rem;
     right: 1rem;
   }
   .textTop {

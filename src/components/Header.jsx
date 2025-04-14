@@ -27,7 +27,7 @@ export default function Header({ onSearch }) {
   return (
     <>
      <div className="d-flex align-items-center justify-content-center justify-content-between px-5 my-5 ">
-     <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light w-100" aria-label="Main navigation">
+     <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light" aria-label="Main navigation">
           <div className="container-fluid headerCont d-flex flex-row align-items-center justify-content-between mx-3 mx-sm-2">
             <div className="brand d-flex flex-row align-items-center py-2">
               <Link className="navbar-brand" to="/home">

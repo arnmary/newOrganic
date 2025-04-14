@@ -43,13 +43,13 @@ export default function ProductDetails() {
         <img src="/banner3.png" alt="banner organic shop" className="pageBanner" />
         <h2 className='bannerTitle'>Product Details</h2>
       </div>
-      <div className="container text-center w-100 d-flex flex-row my-5">
-        <div className="detImage w-50 rounded rounded-5 p-5 mt-5">
+      <div className="container productDetailsCard text-center">
+        <div className="detImage  rounded rounded-5">
           <button className='singleTagBtn bg-body-emphasis text-light rounded-2 w-25 '>{product.tag}</button>
           <img src={product.imgSrc} alt={product.altText} className="w-75" />
         </div>
-        <div className="details w-50 text-start px-4 py-5 m-5">
-          <h5 className="mainText roboto-600">{product.description}</h5>
+        <div className="details  text-start">
+          <h5 className="mainText">{product.description}</h5>
           <div className="d-flex flex-column py-3">
             <div className="rating py-2">
               {Array.from({ length: product.rating }).map((_, index) => (
@@ -62,14 +62,14 @@ export default function ProductDetails() {
             </p>
           </div>
           <p className="py-3 simpleText">{product.details}</p>
-          <div className="d-flex flex-row align-items-center">
+          <div className="addedBlock d-flex flex-row align-items-center">
             <p className="py-3 mx-3 mt-3 secondText ainText ">Quantity:</p>
             <button onClick={handleDecrease} className="btn btn-outline-secondary">-</button>
             <span className="px-3">{quantity}</span>
             <button onClick={() => setQuantity(quantity + 1)} className="btn btn-outline-secondary">+</button>
             <button
               onClick={handleAddToCart}
-              className="abovBtn w-50 bg-body-emphasis text-center text-light rounded rounded-4 mx-3">
+              className="abovBtn detailsFirstBtn  bg-body-emphasis text-center text-light rounded rounded-4 mx-3">
               Add To Cart
               <span className=" mx-3 ">
                 <FontAwesomeIcon icon={faArrowRight} className="text-light rounded abovBtn icon rounded-4 faIconRight" />
@@ -79,11 +79,11 @@ export default function ProductDetails() {
         </div>
       </div>
       <div className="relatedProduct text-center ">
-      <div className='d-flex flex-row align-items-center justify-content-center text-center my-5 mx-auto w-100'>
-          <button className='abovBtn rounded rounded-4 mx-3 w-25 py-4 text-light'>
+      <div className='d-flex flex-row align-items-center justify-content-center text-center my-5 mx-auto '>
+          <button className='abovBtn detailsSecondBtn rounded rounded-4 text-light'>
           Product Description
           </button>
-          <button className='rounded rounded-4 w-25 py-4  detailsBtn'>
+          <button className='rounded rounded-4 detailsBtn'>
           Additional Info
           </button>
         </div>
@@ -91,8 +91,8 @@ export default function ProductDetails() {
         Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, <br /> ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple  <br />sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.
         </p>
       </div>
-      <div className='relatedProduct text-center text-primary-emphasis roboto-800 my-5 '>
-        <h3 className='roboto-800'>Related Products</h3>
+      <div className='relatedProduct text-center text-primary-emphasis my-5 '>
+        <h3 className=''>Related Products</h3>
         <div className="productList d-flex justify-content-center flex-wrap gap-1">
         {relatedProducts.map((relatedProduct) => (
   <div
