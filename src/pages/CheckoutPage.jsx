@@ -88,7 +88,7 @@ export default function CheckoutPage() {
               required
             />
           </div>
-          <button type="submit" className="detailsBtn">Submit Order</button>
+          <button type="submit" className="detailsBtn rounded-2">Submit Order</button>
         </form>
       </div>
     </>

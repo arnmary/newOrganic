@@ -23,7 +23,7 @@ export default function Reviews() {
           {customers.map((customer) => (
             <SwiperSlide key={customer.id}>
               <div className="customerSlide">
-                <div className='sliderTop d-flex flex-column'>
+                <div className='sliderTop d-flex flex-column justify-content-center'>
                     <img src={customer.imgSrc} alt={customer.altText} className="customerImage py-1" />
                     <div className='revRating text-center'>
                            {Array.from({ length: Number(customer.rating) || 0 }).map((_, index) => (
@@ -43,21 +43,21 @@ export default function Reviews() {
         </Swiper>
       </div>
       <div className="advantages">
-<div className=" circle  bg-light p-5 m-2">
-    <h3 className='text-center p-1 roboto-800 mainText '>100%</h3>
-    <p className='text-center open-sans-600 '>Organic</p>
+<div className=" circle  bg-light p-5 p-lg-3 p-xl-4 p-md-2 p-sm-5 mt-sm-5 m-2">
+    <h3 className='text-center p-1 mt-lg-3 mt-sm-5 mainText '>100%</h3>
+    <p className='text-center py-md-1 '>Organic</p>
 </div>
-<div className=" circle  bg-light p-5 m-2">
-    <h3 className='text-center p-1 roboto-800 mainText '>285</h3>
-    <p className='text-center open-sans-600 '>Active Product</p>
+<div className=" circle  bg-light p-5 p-lg-3 p-xl-4 p-md-2 p-sm-1 mt-sm-5 m-2">
+    <h3 className='text-center p-1 mt-lg-3 mt-sm-3  mainText '>285</h3>
+    <p className='text-center py-md-1 '>Active Product</p>
 </div>
-<div className=" circle  bg-light p-5 m-2">
-    <h3 className='text-center p-1 roboto-800 mainText '>350+</h3>
-    <p className='text-center open-sans-600 '>Organic Orchads</p>
+<div className=" circle  bg-light p-5 p-lg-3 p-xl-4 p-md-2  mt-sm-5 m-2">
+    <h3 className='text-center p-1 mt-lg-3 mt-sm-3 mainText '>350+</h3>
+    <p className='text-center py-md-1 '>Organic Orchads</p>
 </div>
-<div className=" circle  bg-light p-5 m-2">
-    <h3 className='text-center p-1 roboto-800 mainText '>25+</h3>
-    <p className='text-center open-sans-600 '>Years of Farming</p>
+<div className=" circle  bg-light p-5 p-lg-3 p-xl-4 p-md-2  mt-sm-5 m-2">
+    <h3 className='text-center p-1 mt-lg-3 mt-sm-3 mainText '>25+</h3>
+    <p className='text-center py-md-1 '>Years of Farming</p>
 </div>
       </div>
     </div>

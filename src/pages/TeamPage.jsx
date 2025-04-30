@@ -7,7 +7,7 @@ export default function TeamPage() {
     const {teamMembers}=data;
   return (
     <>
-    <div className='container-fluid pageBanner position-relative'>
+    <div className='container-fluid pageBanner position-relative p-0'>
         <img src="/banner7.png" alt="banner organic shop" className='pageBanner' />
         <h2 className="bannerTitle">Our Team</h2>
     </div>

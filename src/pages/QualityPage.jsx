@@ -5,7 +5,7 @@ export default function QualityPage() {
 
   return (
     <>
-  <div className='container-fluide pageBanner position-relative'>
+  <div className='container-fluide pageBanner position-relative p-0'>
          <img src="/banner5.png" alt="banner organic shop" className='pageBanner'/>
 </div>
          <h2 className='bannerTitle'>Quality Standard</h2>

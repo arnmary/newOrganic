@@ -12,7 +12,7 @@ export default function AboutContent() {
   return (
     <>
        <div className='secondBlock container-fluid'>
-      <div className='conteiner ms-0'>
+      <div className='conteiner secondImageWrap ms-0'>
           <img src="/image12.png" alt="Vegitables image" className='secondImage'/>
       </div>
       <div className="secondText text-start conteiner">
@@ -59,10 +59,10 @@ export default function AboutContent() {
       </div>
       </div>
             </div>
-            <div className='thirdBlock conteiner-fluide'>
+            <div className='thirdBlock conteiner'>
           <div className="thirdContent">
             <div className="thirdTop d-flex flex-row">
-                <div className="textThirdSection w-50">
+                <div className="textThirdSection">
                     <h3 className="textTop text-start">
                     Why Choose us?
                     </h3>
@@ -147,7 +147,7 @@ export default function AboutContent() {
 </div>
 </div>
     </div>
-    <div className="fifthBlock conteiner-fluid w-100">
+    <div className="fifthBlock conteiner">
         <div className="fifthContent ">
         <h5 className="textTop text-center">About Us</h5>
         <h4 className='mainTexttext-light text-center mb-5'>What We Offer for You</h4>

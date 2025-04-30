@@ -39,7 +39,7 @@ export default function ProductDetails() {
 
   return (
     <>
-       <div className="container-fluid">
+       <div className="container-fluid p-0">
         <img src="/banner3.png" alt="banner organic shop" className="pageBanner" />
         <h2 className='bannerTitle'>Product Details</h2>
       </div>
@@ -63,13 +63,13 @@ export default function ProductDetails() {
           </div>
           <p className="py-3 simpleText">{product.details}</p>
           <div className="addedBlock d-flex flex-row align-items-center">
-            <p className="py-3 mx-3 mt-3 secondText ainText ">Quantity:</p>
+            <p className="py-3 mx-3 mx-md-1 mt-3 secondText ainText ">Quantity:</p>
             <button onClick={handleDecrease} className="btn btn-outline-secondary">-</button>
             <span className="px-3">{quantity}</span>
             <button onClick={() => setQuantity(quantity + 1)} className="btn btn-outline-secondary">+</button>
             <button
               onClick={handleAddToCart}
-              className="abovBtn detailsFirstBtn  bg-body-emphasis text-center text-light rounded rounded-4 mx-3">
+              className="abovBtn detailsFirstBtn  bg-body-emphasis text-center text-light rounded rounded-4 mx-3 mx-md-1">
               Add To Cart
               <span className=" mx-3 ">
                 <FontAwesomeIcon icon={faArrowRight} className="text-light rounded abovBtn icon rounded-4 faIconRight" />
@@ -92,7 +92,7 @@ export default function ProductDetails() {
         </p>
       </div>
       <div className='relatedProduct text-center text-primary-emphasis my-5 '>
-        <h3 className=''>Related Products</h3>
+        <h3 className='titleRelProd'>Related Products</h3>
         <div className="productList d-flex justify-content-center flex-wrap gap-1">
         {relatedProducts.map((relatedProduct) => (
   <div
@@ -102,11 +102,11 @@ export default function ProductDetails() {
   >
     <button className="w-50 text-light prodTag rounded rounded-2">{relatedProduct.tag}</button>
     <img src={relatedProduct.imgSrc} alt={relatedProduct.altText} className="product-image w-100" />
-    <h3 className="product-description prodDeck border-bottom w-75 mx-3 my-5 text-start text-primary-emphasis">
+    <h3 className="product-description prodDeck border-bottom w-75 mx-3 my-5 text-start">
       {relatedProduct.description}
     </h3>
     <div className="cardBot d-flex flex-row justify-content-between">
-      <p className="product-price text-body-emphasis my-5">
+      <p className="product-price  my-5">
         <span className="text-secondary disabledText p-1">{relatedProduct.priceDisabled} $</span>
         {relatedProduct.price} $.
       </p>

@@ -17,10 +17,10 @@ export default function BlogDetails() {
             <div className="blogDetails cardDescription position-relative bg-light">
                 <div className='w-75'>
                     <div className='d-flex flex-row '>
-                               <h3 className='text-primary-emphasis roboto-600'>Posted On: {date}</h3>
+                               <h3 className='userName mb-3 me-2'> <span className='blogDetailsUser'>Posted On:</span>{date}</h3>
                 <span className="d-flex flex-row pt-1 ">
-                    <FontAwesomeIcon icon={faUser} className="textTop p-2 " />
-                    <p className="text-primary-emphasis pt-1 px-2">By {author}</p>
+                    <FontAwesomeIcon icon={faUser} className="textTop p-2 mb-3" />
+                    <p className=" pt-1 px-2 userName">By {author}</p>
                 </span>
                     </div>
               

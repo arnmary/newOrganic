@@ -15,7 +15,7 @@ const handleReadMore = (blogDetails) => {
 };
   return (
     <>
-    <div className="container-fluid pageBanner position-relative mt-0">
+    <div className="container-fluid pageBanner position-relative mt-0 p-0">
         <img src="/banner8.png" alt="banner organic shop" className="pageBanner" />
         <h2 className="bannerTitle">Recent News</h2>
       </div>

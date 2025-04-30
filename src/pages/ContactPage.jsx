@@ -20,7 +20,7 @@ export default function ContactPage() {
 
   return (
     <>
-  <div className="container-fluid pageBanner position-relative mt-0">
+  <div className="container-fluid pageBanner position-relative p-0 mt-0">
         <img src="/banner9.png" alt="banner organic shop" className="pageBanner" />
           <h2 className="bannerTitle">Contact Us</h2>
   </div>
@@ -116,7 +116,7 @@ export default function ContactPage() {
           </div>
       </div>
    </div>
-  <div className="thirdSectionContact w-75">
+  <div className="thirdSectionContact">
        <form onSubmit={handleSubmit} className="contactForm d-flex flex-row justify-content-between flex-wrap">
             <div className="mb-4 me-3 inputWrap">
               <label htmlFor="name" className="form-label">Full Name*</label>

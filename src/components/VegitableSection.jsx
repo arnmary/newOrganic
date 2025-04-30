@@ -31,7 +31,7 @@ export default function VegitableSection() {
             </div>
           </div>
 
-          <div className="cardBlock product-list d-flex flex-row justify-content-between py-5">
+          <div className="cardBlock product-list d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column justify-content-between py-5">
             {vegetableProducts.map(product => (
               <div key={product.id} className="productVegan card rounded rounded-2 p-2 m-1">
                 <button className='w-75 text-light vegBtnTag rounded rounded-2'>{product.tag}</button>

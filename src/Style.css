@@ -211,6 +211,7 @@ body {
   margin-left: 0;
 }
 .textBlock{
+  /* width: 36%; */
   position: absolute;
   top: 20%;
   left: 50%;
@@ -226,7 +227,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 2.5rem;
   font-weight: 800;
-  margin: o 0.5rem;
+  margin: 0 0.5rem;
 }
 .mainLightText {
   color: var(--lightText);
@@ -383,7 +384,7 @@ body {
   max-width: 60%;
   position: absolute;
   top: 70%;
-  transform: translateX(50%);
+  transform: translateX(60%);
   z-index: 12;
   border-top: #e0e0e0 solid 0.1rem;
   margin-bottom: 10rem;
@@ -406,7 +407,7 @@ body {
   margin: 0;
 }
 .vegContent {
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
   padding-top: 12rem;
   padding-bottom: 3rem;
@@ -426,11 +427,13 @@ body {
 }
 .cardBlock {
   width: 80%;
+  /* width: 75%; */
   margin: 0 auto;
   padding-top: 4rem;
 }
 .productVegan {
   width: 30%;
+  /* width: 19%; */
   font-size: 1.25rem;
 }
 
@@ -461,8 +464,8 @@ body {
 .textSection {
   position: absolute;
   background-color: var(--whiteBackground);
-  top: 17%;
-  transform: translateX(125%);
+  top: 7%;
+  transform: translateX(100%);
   padding: 2.8rem 3.6rem;
   border-radius: 2rem;
 }
@@ -502,7 +505,7 @@ transform: translateX(-162%);
   margin: 11rem auto;
 }
 .blogContent {
-  max-width: 80%;
+  max-width: 74%;
   margin: 11rem auto 3rem;
   padding: 0 1rem;
 }
@@ -550,23 +553,25 @@ transform: translateX(-162%);
   height: 30rem;
 }
 .newsBlock {
-  position: relative;
-  width: 95%;
-  padding: 1.5rem;
-  margin: 0 auto;
+  width: 100%;
+ 
 }
-.newsLetterImage{
-width: 100%;
-  margin: 1.5rem auto 7.31rem;
+.contentNews{
+  width: 75%;
+position: relative;
+padding: 1.5rem;
+margin: 1.5rem auto 7.31rem;
+}
+.newsBlock img{
+  width: 100%;
 }
 .newsLetterContent {
   position: absolute;
   top: 33%;
-  transform: translateX(5%);
+  transform: translateX(10%);
 }
 .newsletterHeading {
   font-size: 3.5rem;
-  padding-right: 16rem;
 }
 .emailInput {
   background: var(--lightBackground);
@@ -664,7 +669,11 @@ margin: 3rem 3rem 0 0;
   padding: 0.5rem 0;
   white-space: nowrap;
 }
+.textThirdSection{
+width: 50%;
+}
 .thirdBlock {
+  width: 100%;
   background-color: var(--lightBackground);
 }
 .thirdContent {
@@ -717,6 +726,7 @@ margin: 3rem 3rem 0 0;
   background-color: var(--whiteBackground);
 }
 .fifthBlock {
+  width: 100%;
   background-color: var(--blueBackground);
 }
 .fifthContent {
@@ -1001,12 +1011,17 @@ li {
   margin: 0;
 }
 .imgFluid {
-  width: 94rem;
+  width: 100%;
+ /* max-width: 94rem; */
   height: 46rem;
 }
 .blogPageUserIcon {
   font-size: 1.125rem;
   color: var(--secondaryTextColor);
+}
+.blogDetailsUser{
+  font-weight: 700;
+  margin-left: 2rem;
 }
 .blogDetails {
   padding: 4.7rem 5.1rem;
@@ -1080,6 +1095,7 @@ h3 {
 }
 .thirdSectionContact {
   margin: 0 6.75rem;
+  width: 75%;
 }
 .inputWrap {
   width: 48%;
@@ -1107,8 +1123,8 @@ h3 {
 }
 .notFoundText {
   position: absolute;
-  top: 20%;
- transform: translateX(160%);
+  top: 32%;
+ transform: translateX(183%);
 }
 .notFoundText h4 {
   font-family: "Roboto", sans-serif;
@@ -1134,30 +1150,166 @@ h3 {
   z-index: 100;
 }
 .garlicVector {
-  bottom: -14rem;
-  left: 16rem;
+  bottom: 3rem;
+  left: 23rem;
   transform: rotate(72deg);
 }
 .leavesVector {
   top: 11rem;
-  left: 28rem;
+  left: 36rem;
   transform: rotate(45deg);
 }
 .thirdVector {
-  bottom: 3rem;
-  left: 44rem;
+  bottom: 32rem;
+  left: 56rem;
   transform: rotate(72deg);
 }
 .forthVector {
-  bottom: 4rem;
-  left: 7rem;
+  bottom: 25rem;
+  left: 10rem;
   transform: rotate(-62deg);
 }
+/* 1439px */
+@media screen and (max-width: 90rem){
+  .simpleText,
+  .contacts a,
+  p,
+  address,
+  .footLink {
+    font-size: small;
+  }
+  .secondText{
+    margin-bottom: 0; 
+  }
+  .prodDeck,
+  .disabledText,
+  .vegPrice{
+    font-size: 0.75rem;
+  }
+  .imagesBlock p,
+  .imagesBlock h3 {
+    font-size: 2rem;
+  }
+  .productList {
+    width: 80%;
+  }
+  .prodBlock{
+    margin-top: 15%;
+  }
+  .product{
+    width: 33%;
+  }
+  .textBlock {
+    top: 15%;
+    left: 42%;
+  }
+  .productVegan{
+  width: 23%;
+}
+  .aboutBackgr {
+    width: 90%;
+  }
+  .textSection{
+    top: 5%;
+    transform: translateX(123%);
+    padding: 1.8rem 2.5rem;
+  }
+  .newsBlock{
+   max-width: 100%;
+  }
+  .contentNews{
+    width: 75%;
+    position: relative;
+    padding: 1.5rem;
+    margin: 1.5rem auto 7.31rem;
+  }
+  .newsBlock img{
+   max-width: 100%;
+ 
+  }
+  .reviewsSlide{
+    top: 20%;
+    transform: translateX(40%);
+  }
+  .textRev{
+    top: 4%;
+    transform: translateX(85%);
+  }
 
+  .advantages {
+    transform: translateX(40%);
+  }
+  .advantages p{
+    font-size: 0.75rem;
+  }
+  .notFoundText{
+    top: 25%;
+    transform: translateX(150%);
+  }
+  .leavesVector {
+    top: 23%;
+    left: 29%;
+  }
+  .forthVector{
+    bottom: 38%;
+  }
+  .garlicVector{
+    bottom: -5%;
+    left: 19%;
+  }
+  .thirdVector{
+    bottom: 44%;
+    left: 49%;
+  }
+  .thirdBottom h5{
+    font-size: 1.125rem;
+  }
+  .fifthContent{
+    margin-bottom: 5rem;
+  }
+  .servButomn{
+    left: 25%;
+  }
+  .imgFluid{
+    max-width: 100%;
+  }
+  .contentNews{
+    width: 80%;
+  }
+
+  .newsletterHeading {
+    padding-right:0;
+    font-size: 2.5rem;
+  }
+  .newsLetterContent{
+    transform: translateX(4%);
+  }
+  .galleryImage{
+    width: 95%;
+  }
+  
+  .location {
+    top: 5%;
+  }
+  .detailsBtn{
+    width: 40%;
+  }
+  .teamersCard{
+    width: 35%;
+  }
+  .fourthBottom{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+}
 /* 1200px */
 @media screen and (max-width: 75rem) {
   .descSecondTitle {
     font-size: 3rem;
+  }
+  .textBlock {
+    top: 0;
   }
   .cartBtn {
     display: flex;
@@ -1165,14 +1317,39 @@ h3 {
     font-size: 1rem;
     font-weight: normal;
   }
-
+  .product{
+    width: 40%;
+  }
+  .cardBlock {
+    width: 85%;
+    align-items: center;
+  }
+  .mainText{
+    font-size: 1.5rem;
+  }
   .imagesBlock p,
   .imagesBlock h3 {
     font-size: 2rem;
   }
+  .textSection{
+    top: 1%;
+    padding: 1rem 2rem;
+    transform: translateX(70%);
+  }
+  .textRev{
+    transform: translateX(123%);
+  }
+  .reviewsSlide{
+    transform: translateX(25%);
+    top: 12%;
+  }
+
   #footer {
     width: 100%;
     margin: 1.5rem 0 0 0;
+  }
+  .contentNews{
+    width: 90%;
   }
   .newsletterHeading {
     font-size: 1.7rem;
@@ -1209,12 +1386,31 @@ h3 {
   .textTop {
     font-size: 1.5rem;
   }
+  .secondImageWrap{
+    width: 50%;
+  }
+  .secondText{
+    width: 60%;
+  }
+  .thirdContent{
+    width: 100%;
+    padding: 2% 9%;
+  }
+  .fourthBottom{
+    flex-direction: column;
+  }
+  .fifthImage{
+    width: 90%;
+  }
+  .location{
+    top: 10%;
+  }
   .notFoundImg {
     width: 70%;
   }
   .notFoundText {
     top: 12rem;
-    right: 2rem;
+    right: 60%;
   }
   .notFoundText h4 {
     font-size: 3.1rem;
@@ -1232,6 +1428,10 @@ h3 {
   .productVegan {
     width: 90%;
   }
+  .productVegan img{
+    min-height: 10rem;
+    max-height: 10rem;
+  }
 
   .imgFluid {
     max-width: 100%;
@@ -1243,19 +1443,219 @@ h3 {
   .servButomn {
     left: 20rem;
   }
+
+}
+/* 991px */
+@media screen and (max-width: 62rem){
+  .mainTitle{
+    font-size: 2.5rem;
+  }
+  p{
+    padding: 0.5rem 0.25rem;
+    margin-bottom: 0;
+  }
+  .titleHeading{
+    top: 15%;
+  }
+  .bannerTitle{
+    font-size: 3.5rem;
+  }
+
+   .imagesBlock p, 
+   .imagesBlock h3,
+   .footerTitle
+   {
+    font-size: 1.5rem;
+   }
+   .pageBanner{
+    padding: 0;
+   }
+   .mainText,
+   .blogSecondTitle{
+    font-size: 1.25rem;
+   }
+   .secondText{
+    font-size: 1.125rem;
+   }
+   .textBlock{
+    width: 50%;
+    top: -20%;
+   }
+   .customerName,
+   .simpleSecondText{
+    margin: 0;
+   }
+   .customerImage{
+    width: 10%;
+   }
+   .descSecondTitle{
+    padding: 0.5rem;
+   }
+   .descBtn,
+   .abovBtn,
+   .loadBtn
+   {
+    font-size: 1rem;
+    padding: 1.25rem 0.75rem;
+    width: 45%;
+   }
+   .loadBtn
+   {
+    width: 30%;
+    margin: 5rem auto 7rem;
+   }
+   .vegBtn,
+   .blogBtn,
+   .blogSectionBtn,
+   .abovBtn{
+    padding: 1.5rem 2rem;
+   }
+   .teamersCard{
+    width: 53%;
+   }
+  .cardTitle,
+  .descSecondTitle,
+  .servSecondHeading,
+  .titleRelProd{
+    font-size: 2.5rem;
+  }
+  .relatedProduct h3:first-child{
+    font-size: 2.5rem;
+  }
+  .rating{
+    font-size: 0.75rem;
+  }
+  .relatedProduct
+  .textRev{
+    transform: translateX(100%);
+  }
+  .reviewsSlide{
+    transform: translateX(1%);
+  }
+  .product{
+    width: 47%;
+  }
+  .detImage,
+  .details{
+    margin-top: 1%;
+  }
+  .details{
+    padding: 2% 0.5%;
+    margin: 1%;
+  }
+  .addedBlock button{
+   display: flex;
+   flex-direction: row;
+   font-size: 0.5rem;
+   padding: 0.5rem 0.75rem;
+  }
+  .abovBtn,
+ .icon{
+   font-size: 1rem;
+   padding: 0.5rem;
+  }
+  .relatedProduct button{
+    padding: 1% 2%;
+    font-size: 1.125rem;
+  }
+  .textSection{
+    top: 0;
+    padding: 0.5rem 1rem;
+   transform: translateX(50%);
+  }
+  .galleryBtn,
+  .customerCategory{
+    font-size: 1rem;
+  }
+  .contentNews{
+    width: 96%;
+  }
+  .thirdContent{
+    padding: 1% 2%;
+  }
+  .textThirdSection{
+    width: 47%;
+  }
+  .thirdBottom{
+    white-space: wrap;
+    width: 96%;
+  }
+  .thirdBtn{
+    padding: 1.5rem 2.5rem 1.5rem 0.5rem ;
+  }
+  .specification{
+    width: 20%;
+  }
+  .specification p,
+  .specification h5{
+    white-space: wrap;
+    text-align: center;
+  }
+  .secondText{
+    width: 75%;
+  }
+  .emailInput {
+       margin: 0;
+    padding: 1.3rem 4.85rem 1.3rem 1.1rem;
+}
+  .imgFluid{
+    height: 20rem;
+  }
+  .secondCardBlock{
+    margin: 0 auto;
+  }
+  .blogTitle{
+    white-space: wrap;
+    width: 100%;
+  }
+  .servButomn{
+    top: 15%;
+    left: 20%;
+  }
+  .servHeadingTop{
+    margin: 5%;
+  }
+  .notFoundText{
+    right: 63%;
+    top: 25%;
+  }
+  .notFoundText h4{
+    font-size: 2.5rem;
+  }
+  .qualityBtn{
+    font-size: 1rem;
+  }
+  .fifthImage{
+    width: 100%;
+  }
+  .fifthContent{
+    width: 98%;
+  }
+  .portfolioImgBlock{
+    padding: 4% 0 0;
+  }
+
 }
 /* 768px */
 @media screen and (max-width: 48rem) {
+  body{
+    width: fit-content;
+  }
   .d-flex {
     flex-direction: column;
     align-items: center;
+  }
+  .textBlock{
+    width: 40%;
+  }
+  .prodBlock{
+    margin-top: 25%;
   }
   .cartBtn {
     display: flex;
     flex-direction: row;
     width: 100%;
   }
-
   #basket {
     margin-left: 0;
     margin-right: 0;
@@ -1280,64 +1680,105 @@ h3 {
   }
   .titleHeading {
     transform: translateX(5%);
-    top: 35%;
+    top: 20%;
   }
   .descTitle,
   .mainText {
-    font-size: 1.8rem !important;
+    font-size: 1.5rem !important;
   }
   .descSecondTitle {
     font-size: 2rem !important;
   }
   .imagesBlock p,
   .imagesBlock h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
+  }
+  .abovBtn{
+    width: 50%;
   }
   .imagesBlock {
-    width: 100%;
-  }
-  .product {
     width: 75%;
   }
+  .product {
+    width: 60%;
+  }
   .advantages {
-    transform: translateX(27%);
+    display: none;
   }
 .advantages p{
   font-size: 0.75rem;
 }
+.circle h3{
+  font-size: 1.125rem;
+}
   .reviewsSlide {
-    top:20%;
-    transform: translateX(26%);
+    top:10%;
+    transform: translateX(2%);
 }
   .textRev {
-  transform: translateX(110%);
+  transform: translateX(72%);
+}
+.secondText{
+  font-size: 1rem;
+}
+.textSection{
+  top: 5%;
+  width: 60%;
+}
+.textSection p,
+.textSection h3{
+  padding: 0.25rem;
+}
+.vegContent h3{
+text-align: center;
+}
+.galleryBtn{
+  transform: translateX(-70%);
+}
+.blogImage{
+  min-width: 90%;
+  /* width: 80%; */
+}
+.textBlogBlock{
+  width: 90%;
+}
+.blogHeading :first-child{
+  text-align: center;
+}
+.newsBlock img{
+  width: 80%;
+}
+.productVegan{
+  width: 50%;
+}
+.productVegan img{
+  min-height: 18rem;
 }
   .newsBlock {
     width: 100%;
   }
-  .newsLetterHeading {
-    font-size: 1.125rem;
-    padding-right: 3rem;
-  }
-  .emailInput {
-    padding: 1.75rem 4.85rem 1.75rem 1.5rem;
+  .emailInput{
+    padding: 1rem 1.75rem 1rem 0.75rem;
     font-size: 0.75rem;
   }
+  .newsSubmit{
+   padding: 1rem;
+   font-size: 0.75rem;
+  }
   .galleryBlock {
+    padding: 5rem 0;
     width: 100%;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
   }
   .galleryImage {
-    max-width: 25rem;
-    max-height: 25rem;
+    width: 100%;
+    padding-bottom: 2%;
   }
   .galleryBtn {
     top: 50%;
     left: 50%;
-  }
-  .newsSubmit {
-    padding: 1.75rem 1rem;
-    font-size: 1rem;
   }
   .location h3 {
     font-size: 1rem;
@@ -1364,11 +1805,20 @@ h3 {
     top: 50%;
     right: 50%;
   }
-.cardTitle, .blogTitle{
+  .cardTitle, .blogTitle{
   font-size: 2.5rem;
+  }
+  .contentNews{
+  width: 80%;
+}
+.newsBlock img{
+  width: 100%;
+}
+.newsLetterHeading {
+   padding-right: 1rem;
 }
 .clientData strong, .clientData li{
- font-size: 1rem; 
+   font-size: 1rem; 
 }
   .fourthContent {
     max-width: 100%;
@@ -1403,8 +1853,8 @@ h3 {
   }
   .notFoundText {
     width: 50%;
-    top: 36%;
-    transform: translateX(26%);
+    top: 25%;
+    right: 60%;
   }
   .notFoundText h4 {
     font-size: 1.56rem;
@@ -1426,6 +1876,12 @@ h3 {
   .forthVector,
   .thirdVector {
     display: none;
+  }
+  .firstSectionContact img{
+    width: 100%;
+  }
+  .contactCard{
+    padding-left: 1rem;
   }
 }
 
