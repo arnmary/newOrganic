@@ -28,7 +28,10 @@ body {
  padding: 0;
 }
 .headerCont{
-  width: 93%;
+ min-width: 90%;
+}
+.formSearch{
+  width: 23rem;
 }
 .mainText,
 .mainTitle,
@@ -44,8 +47,10 @@ body {
   height: 3.56rem;
 }
 .searchBtn {
+  /* background: #FAFAFA; */
   background-color: var(--secondaryTextColor);
   margin-right: -0.5rem;
+  border: none;
 }
 #basket {
   padding: 0.55rem 1rem;
@@ -59,11 +64,26 @@ body {
 .checkBtn,
 .loadBtn {
   background-color: var(--blueBackground);
+
+}
+.navbar{
+max-width: 100%;
+}
+.nav-link{
+  display: flex !important;
+}
+#search{
+  background: #E0E0E0;
+}
+.cartBtnWrap{
+display: flex;
+flex-direction: row;
+align-items: center;
 }
 .cartBtn {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: center; */
   border: 0.1rem solid #e0e0e0;
 }
 .descBlock {
@@ -257,6 +277,7 @@ body {
   display: block;
 }
 .pageBanner {
+  width: 100vw;
   max-width: 100%;
   height: auto;
   display: block;
@@ -267,8 +288,8 @@ body {
 .abovBtn,
 .cartTitle {
   font-family: "Roboto", sans-serif;
-  padding: 1.75rem 2.43rem;
-  font-size: 1.25rem;
+  padding: 0.75rem 1.43rem 0.75rem 0.75rem;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 .disabledText {
@@ -1011,8 +1032,7 @@ li {
   margin: 0;
 }
 .imgFluid {
-  width: 100%;
- /* max-width: 94rem; */
+ width: 100vw;
   height: 46rem;
 }
 .blogPageUserIcon {
@@ -1118,13 +1138,13 @@ h3 {
 
 .notFoundFirstImg {
   position: relative;
-  max-width: 100%;
+  width: 100%;
   padding-bottom: 7.25rem;
 }
 .notFoundText {
   position: absolute;
-  top: 32%;
- transform: translateX(183%);
+  top: 30%;
+ left: 60%;
 }
 .notFoundText h4 {
   font-family: "Roboto", sans-serif;
@@ -1177,6 +1197,9 @@ h3 {
   address,
   .footLink {
     font-size: small;
+  }
+  .formSearch{
+    width: 15rem;
   }
   .secondText{
     margin-bottom: 0; 
@@ -1244,7 +1267,7 @@ h3 {
   }
   .notFoundText{
     top: 25%;
-    transform: translateX(150%);
+    left: 60%;
   }
   .leavesVector {
     top: 23%;
@@ -1310,6 +1333,9 @@ h3 {
   }
   .textBlock {
     top: 0;
+  }
+  .formSearch{
+    width: 10rem;
   }
   .cartBtn {
     display: flex;
@@ -1409,8 +1435,8 @@ h3 {
     width: 70%;
   }
   .notFoundText {
-    top: 12rem;
-    right: 60%;
+    top: 20%;
+    right: 10%;
   }
   .notFoundText h4 {
     font-size: 3.1rem;
@@ -1459,6 +1485,9 @@ h3 {
   }
   .bannerTitle{
     font-size: 3.5rem;
+  }
+  .formSearch{
+    width: 100%;
   }
 
    .imagesBlock p, 
@@ -1616,8 +1645,7 @@ h3 {
     margin: 5%;
   }
   .notFoundText{
-    right: 63%;
-    top: 25%;
+    top: 15%;
   }
   .notFoundText h4{
     font-size: 2.5rem;
@@ -1644,6 +1672,12 @@ h3 {
   .d-flex {
     flex-direction: column;
     align-items: center;
+  }
+  .headerCont{
+    min-width: 90%;
+  }
+  .formSearch{
+    width: 100%;
   }
   .textBlock{
     width: 40%;
@@ -1737,7 +1771,6 @@ text-align: center;
 }
 .blogImage{
   min-width: 90%;
-  /* width: 80%; */
 }
 .textBlogBlock{
   width: 90%;
@@ -1805,6 +1838,9 @@ text-align: center;
     top: 50%;
     right: 50%;
   }
+  .pageBanner{
+  width: 100%;
+  }
   .cardTitle, .blogTitle{
   font-size: 2.5rem;
   }
@@ -1852,9 +1888,9 @@ text-align: center;
     width: 50%;
   }
   .notFoundText {
-    width: 50%;
-    top: 25%;
-    right: 60%;
+    width: 40%;
+    top: 15%;
+    right: 10%;
   }
   .notFoundText h4 {
     font-size: 1.56rem;

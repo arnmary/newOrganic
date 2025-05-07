@@ -33,7 +33,7 @@ export default function CartPage() {
             <ul className="list-group">
               {cart.map((item) => (
                 <li key={item.id} className="list-group-item d-flex justify-content-between align-items-center">
-                  <img src={item.imgSrc} alt={item.description} className="cart-item-image" style={{ width: '3rem ', height: '3rem ', objectFit: 'cover' }} />
+                  <img src={item.imgSrc} alt={item.description} className="cart-item-image" style={{ width: '6rem ', height: '6rem ', objectFit: 'cover' }} />
                   <span>{item.description} (x{item.quantity})</span>
                   <button onClick={() => removeFromCart(item.id)} className="btn btn-danger btn-sm">
                     Remove

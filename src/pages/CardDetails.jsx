@@ -28,7 +28,7 @@ export default function CardDetails() {
   
   return (
     <>
-      <div className="container-fluid pageBanner  p-0">
+      <div className="container-fluid pageBanner position-relative p-0">
         <img src={card.src} alt={card.title} className="imgFluid"  />
       </div>
       <div className='cardDescription position-relative  d-flex flex-row  bg-light '>

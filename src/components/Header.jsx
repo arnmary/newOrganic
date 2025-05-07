@@ -28,7 +28,7 @@ export default function Header({ onSearch }) {
     <>
      <div className="d-flex align-items-center justify-content-center justify-content-between px-5 my-5 ">
      <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light" aria-label="Main navigation">
-          <div className="container-fluid headerCont d-flex flex-row align-items-center justify-content-between mx-3 mx-sm-2">
+          <div className=" container-xxl container-xl container-sm mx-xl-auto mx-xxl-auto mx-lg-auto mx-md-auto mx-sm-auto headerCont d-flex flex-row align-items-center justify-content-between">
             <div className="brand d-flex flex-row align-items-center py-2">
               <Link className="navbar-brand" to="/home">
                 <img src="/logo.png" alt="logo img" id="logo" className='logoImg'/>
@@ -84,9 +84,9 @@ export default function Header({ onSearch }) {
                   <Link className="nav-link text-primary-emphasis px-4 px-lg-3" to="/blog">News</Link>
                 </li>
               </ul>
-              <form className="position-relative pe-1" role="search" onSubmit={handleSearchSubmit}>
+              <form className="position-relative pe-1 formSearch"role="search " onSubmit={handleSearchSubmit}>
               <input
-  className="form-control search rounded-5 bg-light py-3 pe-1 text-primary-emphasis"
+  className="form-control search rounded-5  py-3 pe-1 text-primary-emphasis" id='search' 
   type="search"
   aria-label="Search"
   value={query}
@@ -110,7 +110,7 @@ export default function Header({ onSearch }) {
               <div className='rounded-5 cartBtn bg-white border-1 btn-outline-secondary mx-1 ps-1 pe-4 py-1'>
                 <Link className="nav-link text-dark" to="/cart">
                   <FontAwesomeIcon icon={faCartShopping} className='text-dark p-3 cartBtnIcon rounded-5 text-white bg-opacity-150' />
-                  <span className='p-2 cartTitle'> Cart ({cart?.length || 0}) </span>
+                  <span className='cartTitle'> Cart ({cart?.length || 0}) </span>
                 </Link>
               </div>
             </div>

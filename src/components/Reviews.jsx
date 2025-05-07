@@ -44,19 +44,19 @@ export default function Reviews() {
       </div>
       <div className="advantages">
 <div className=" circle  bg-light p-5 p-lg-3 p-xl-4 p-md-2 p-sm-5 mt-sm-5 m-2">
-    <h3 className='text-center p-1 mt-lg-3 mt-sm-5 mainText '>100%</h3>
+    <h3 className='text-center p-1 mt-lg-3 mt-sm-2 mainText '>100%</h3>
     <p className='text-center py-md-1 '>Organic</p>
 </div>
 <div className=" circle  bg-light p-5 p-lg-3 p-xl-4 p-md-2 p-sm-1 mt-sm-5 m-2">
-    <h3 className='text-center p-1 mt-lg-3 mt-sm-3  mainText '>285</h3>
+    <h3 className='text-center p-1 mt-lg-3 mt-sm-2  mainText '>285</h3>
     <p className='text-center py-md-1 '>Active Product</p>
 </div>
 <div className=" circle  bg-light p-5 p-lg-3 p-xl-4 p-md-2  mt-sm-5 m-2">
-    <h3 className='text-center p-1 mt-lg-3 mt-sm-3 mainText '>350+</h3>
+    <h3 className='text-center p-1 mt-lg-3 mt-sm-2 mainText '>350+</h3>
     <p className='text-center py-md-1 '>Organic Orchads</p>
 </div>
 <div className=" circle  bg-light p-5 p-lg-3 p-xl-4 p-md-2  mt-sm-5 m-2">
-    <h3 className='text-center p-1 mt-lg-3 mt-sm-3 mainText '>25+</h3>
+    <h3 className='text-center p-1 mt-lg-3 mt-sm-2 mainText '>25+</h3>
     <p className='text-center py-md-1 '>Years of Farming</p>
 </div>
       </div>

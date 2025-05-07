@@ -7,11 +7,22 @@
         width: 1.31rem;
         height: 2.56rem;
     }
-    .headerContent{
-        width: 90%;
+    .headerCont{
+       max-width: 90%;
+        padding: 0 1rem ;
+        margin: 0;
     }
     .navbar-toggler-icon {
         padding: 0 1rem;
+    }
+    .vegBtn{
+        padding: 0.5rem;
+    }
+    .cartBtn{
+        width: 80%;
+    }
+    .cartTitle{
+        padding: 0.5rem;
     }
     p, .simpleText{
         max-width: 85%;
@@ -44,6 +55,9 @@
     p {
         font-size: 0.75rem !important;
     }
+    .navbar{
+        width: 98%;
+    }
     .descImage{
         width: 100%;
         min-height: 25rem;
@@ -75,21 +89,22 @@
      text-align: start;
     }
     .product{
-        width: 70%;
+        width: 75%;
         min-height: 25rem;
       }
       .prodBlock{
-        margin: 10rem auto 4rem;
+        margin: 5rem auto 4rem;
       }
       .cardBlock{
         flex-wrap: wrap;
       }
       .loadBtn {
+        width: 40%;
         margin: 3.6rem auto 3.4rem auto;
       }
       .productVegan,
       .vegSecondBlock{
-        width: 80%;
+        width: 75%;
       }
       .revBackImage{
        min-height: 30rem;
@@ -98,9 +113,9 @@
    transform: translateX(18%);
       }
       .reviewsSlide{
-        width: 100%;
+        width: 90%;
         top: 20%;
-        transform:translateX(0%);
+        transform:translateX(3%);
       }
       .reviewsSlide p{
         min-width: 100%;
@@ -175,9 +190,8 @@
         width: 100%;
     }
     .newsBlock img{
-        width: 90%;
+        width: 100%;
     }
-   
     .emailInput, .newsSubmit {
         padding: 0.5rem 2.5rem 0.5rem 1rem;
         margin: 1.25%;
@@ -362,17 +376,15 @@
         width: 40%;
     }
     .notFoundText{
-        top: 16%;
-        right: 75%;
-        /* transform: translateX(15%); */
+        top: 18%;
+      left: 50%;
     }
     .notFoundText p{
-        margin: 0.5%;
-        padding: 0.2rem;
+        display: none;
     }
     .notfoundBtn {
         flex-direction: row;
-        bottom: -41%;
+        bottom: -80%;
         padding: 0.5rem 0.7rem;
         font-size: 0.75rem;
     }
@@ -397,17 +409,25 @@
     }
     .detailsFirstBtn{
         padding: 1rem;
+        display: flex;
+        align-items: center;
     }
     .detailsSecondBtn, .detailsBtn{
      padding: 0.5rem;
      font-size: 0.75rem;
     }
     .abovBtn{
+        width: 40%;
         padding: 0.5rem 0.43rem;
     }
     .addedBlock{
         width: 80%;
     }
- 
+    .checkBtn,
+    .backShoppingBtn{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    } 
 
 }

@@ -45,7 +45,7 @@ export default function Blog() {
               {blog.date}
             </span>
             <div className=" textBlogBlock  mt-0 rounded rounded-5">
-              <span className="d-flex flex-row">
+              <span className="d-flex flex-row align-items-center">
                 <FontAwesomeIcon icon={faUser} className="userIcon p-1" />
                 <p className="userName mx-1 my-0">By {blog.author}</p>
               </span>
