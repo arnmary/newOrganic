@@ -39,7 +39,7 @@ export default function ProductDetails() {
 
   return (
     <>
-       <div className="container-fluid p-0">
+       <div className="container-fluid position-relative p-0">
         <img src="/banner3.png" alt="banner organic shop" className="pageBanner" />
         <h2 className='bannerTitle'>Product Details</h2>
       </div>

@@ -407,11 +407,6 @@
       padding: 1rem 0.5rem; 
       margin: 1rem;
     }
-    .detailsFirstBtn{
-        padding: 1rem;
-        display: flex;
-        align-items: center;
-    }
     .detailsSecondBtn, .detailsBtn{
      padding: 0.5rem;
      font-size: 0.75rem;
@@ -429,5 +424,11 @@
         flex-direction: row;
         align-items: baseline;
     } 
+       .detailsFirstBtn{
+        width: 50%;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+    }
 
 }
